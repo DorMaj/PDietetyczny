@@ -2,11 +2,11 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#5D8C4E"
-    tools:context=".MainActivity">
-
+    tools:context=".Bmi"
+    android:background="#5D8C4E">
     <FrameLayout
         android:id="@+id/frame_layout"
         android:layout_width="0dp"
@@ -17,7 +17,18 @@
         app:layout_constraintTop_toTopOf="parent">
 
 
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="To jest strona bmi"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+
+
+            />
     </FrameLayout>
+
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottomNavigationView"
@@ -29,5 +40,4 @@
         app:menu="@menu/bottom_nav">
 
     </com.google.android.material.bottomnavigation.BottomNavigationView>
-
 </androidx.constraintlayout.widget.ConstraintLayout>
