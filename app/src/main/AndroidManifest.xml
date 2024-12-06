@@ -18,15 +18,7 @@
         <activity
             android:name=".Bmi"
             android:exported="false" />
-        <activity
-            android:name=".Info"
-            android:exported="false" />
-        <activity
-            android:name=".Calc"
-            android:exported="false" />
-        <activity
-            android:name=".Home"
-            android:exported="false" />
+
         <activity
             android:name=".SecondActivity"
             android:exported="false" />
