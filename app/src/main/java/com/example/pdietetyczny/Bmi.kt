@@ -50,12 +50,12 @@ class Bmi : AppCompatActivity() {
         bmiprogress = findViewById(R.id.progressBar)
         val wzrost = findViewById<NumberPicker>(R.id.wzrost)
         wzrost.minValue = 80
-        wzrost.maxValue = 300
+        wzrost.maxValue = 240
         wzrost.value = 160
 
         val waga = findViewById<NumberPicker>(R.id.waga)
         waga.minValue = 30
-        waga.maxValue = 300
+        waga.maxValue = 250
         waga.value = 60
 
         //Nasłuchiwanie zmian w zmiennych
