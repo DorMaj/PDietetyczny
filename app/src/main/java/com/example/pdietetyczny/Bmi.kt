@@ -87,7 +87,12 @@ class Bmi : AppCompatActivity() {
         val layerDrawable = progressBar.progressDrawable as LayerDrawable
         val progressLayer = layerDrawable.findDrawableByLayerId(android.R.id.progress)
         when(bmi.toInt()){
-            in 0..29 ->
+            in 0..17->
+                if (progressLayer is ClipDrawable) {
+                    val gradientDrawable = progressLayer.drawable as? GradientDrawable
+                    gradientDrawable?.setColor(Color.parseColor("#6A9BCC")) // Zmień kolor
+                }
+            in 18..29 ->
                 if (progressLayer is ClipDrawable) {
                     val gradientDrawable = progressLayer.drawable as? GradientDrawable
                     gradientDrawable?.setColor(Color.parseColor("#63B167")) // Zmień kolor
