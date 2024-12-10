@@ -32,51 +32,35 @@
             android:padding="10dp"
             android:gravity="center">
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Wzrost"
-                android:textColor="#FFFFFF"
-                android:textSize="18sp"/>
+                style="@style/main"
+                android:text="Wzrost" />
             <NumberPicker
                 android:id="@+id/wzrost"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="5dp"/>
             <TextView
-                android:textColor="@color/white"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                style="@style/main"
                 android:text="cm"
-                android:paddingEnd="10dp"/>
+                android:layout_marginRight="20dp"/>
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Waga"
-                android:textColor="#FFFFFF"
-                android:textSize="18sp"/>
+                style="@style/main"
+                android:text="Waga" />
             <NumberPicker
                 android:id="@+id/waga"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="5dp"/>
             <TextView
-                android:textColor="@color/white"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                style="@style/main"
                 android:text="kg"/>
         </LinearLayout>
         <TextView
-            android:id="@+id/wynikbmi"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="20sp"
-            android:textColor="@color/white"/>
+            style="@style/main"
+            android:id="@+id/wynikbmi"/>
         <TextView
+            style="@style/main"
             android:id="@+id/statusbmi"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="20sp"
-            android:textColor="@color/white"
             android:text="Wprowadź dane"/>
 
         <ProgressBar
@@ -87,9 +71,7 @@
             android:indeterminate="false"
             android:progressDrawable="@drawable/linear_bar"
             android:progress="0"
-            android:max="40"
-
-            />
+            android:max="40"/>
 
     </LinearLayout>
 

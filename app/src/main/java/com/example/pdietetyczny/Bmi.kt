@@ -14,6 +14,7 @@ import androidx.core.content.ContextCompat
 import com.example.pdietetyczny.databinding.ActivityBmiBinding
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
+@Suppress("DEPRECATION")
 class Bmi : AppCompatActivity() {
     private lateinit var binding: ActivityBmiBinding
     private lateinit var bmiwynik: TextView
@@ -32,12 +33,14 @@ class Bmi : AppCompatActivity() {
             when (item.itemId) {
                 R.id.start -> {
                     startActivity(Intent(this, MainActivity::class.java))
+                    overridePendingTransition(0, 0)
                     finish()
                     true
                 }
                 R.id.bmi -> true
                 R.id.opcje -> {
                     startActivity(Intent(this, Opcje::class.java))
+                    overridePendingTransition(0, 0)
                     finish()
                     true
                 }

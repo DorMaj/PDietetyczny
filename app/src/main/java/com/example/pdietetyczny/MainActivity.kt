@@ -11,6 +11,7 @@ import com.example.pdietetyczny.R.layout.activity_main
 import com.example.pdietetyczny.databinding.ActivityMainBinding
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
+@Suppress("DEPRECATION")
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -29,16 +30,20 @@ class MainActivity : AppCompatActivity() {
 
                 R.id.bmi -> {
                     startActivity(Intent(this, Bmi::class.java))
+                    overridePendingTransition(0, 0)
                     true
                 }
 
                 R.id.opcje -> {
                     startActivity(Intent(this, Opcje::class.java))
+                    overridePendingTransition(0, 0)
                     true
                 }
 
                 else -> false
             }
         }
+
+        //OnCreate (od tąd można zacząć pisać kod)
     }
 }
