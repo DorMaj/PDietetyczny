@@ -33,11 +33,15 @@
             style="@style/main"
             android:layout_above="@+id/searchProduct"
             android:layout_below="@+id/textView"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="50dp"
             android:layout_marginTop="50dp"
-            android:layout_marginBottom="50dp"
-            android:text="Wprowadź produkt i wynik wyszukiwania pojawi się tutaj"
+            android:layout_marginEnd="50dp"
+            android:layout_marginBottom="25dp"
+            android:text="Wprowadź produkt"
             android:textAlignment="center"
-            android:textSize="30dp" />
+            android:textSize="25sp" />
 
         <AutoCompleteTextView
             android:id="@+id/searchProduct"
@@ -62,7 +66,8 @@
             android:layout_marginBottom="150dp"
             android:text="Szukaj"
             android:textSize="20dp"
-            android:textStyle="bold"/>
+            android:textStyle="bold"
+            android:textColor="@color/white"/>
 
         <ImageView
             android:id="@+id/imageView3"

@@ -71,7 +71,7 @@ class MainActivity : AppCompatActivity() {
             val selectedProduct = foodList.find { it.name == selectedName }
             selectedProduct?.let {
                 findViewById<TextView>(R.id.resultTextView).text = """
-                    Nazwa: ${it.name}
+                    ${it.name}
                     Kalorie: ${it.calories}
                     Białko: ${it.protein}
                     Cukier: ${it.sugar}

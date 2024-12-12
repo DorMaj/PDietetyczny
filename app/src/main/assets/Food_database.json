@@ -1,0 +1,3900 @@
+[
+    {
+      "name": "Actimel, mleko jogurtowe",
+      "calories": "88",
+      "protein": "2.7",
+      "fat": "1.5",
+      "sugar": "16"
+    },
+    {
+      "name": "Advokat, likier",
+      "calories": "280",
+      "protein": "4.4",
+      "fat": "6",
+      "sugar": "28.4"
+    },
+    {
+      "name": "Agrest",
+      "calories": "60",
+      "protein": "1.2",
+      "fat": "0.9",
+      "sugar": "11.8"
+    },
+    {
+      "name": "Ananas",
+      "calories": "33",
+      "protein": "0.2",
+      "fat": "0",
+      "sugar": "7.8"
+    },
+    {
+      "name": "Arbuz",
+      "calories": "15",
+      "protein": "0.3",
+      "fat": "0.1",
+      "sugar": "3.2"
+    },
+    {
+      "name": "Awokado",
+      "calories": "160",
+      "protein": "2",
+      "fat": "15",
+      "sugar": "7"
+    },
+    {
+      "name": "Baleron gotowany",
+      "calories": "246",
+      "protein": "15.1",
+      "fat": "20.2",
+      "sugar": "0.9"
+    },
+    {
+      "name": "Banan",
+      "calories": "74",
+      "protein": "0.9",
+      "fat": "0.3",
+      "sugar": "17"
+    },
+    {
+      "name": "Baranina, łopatka",
+      "calories": "287",
+      "protein": "15.6",
+      "fat": "25",
+      "sugar": "0"
+    },
+    {
+      "name": "Baranina, mięso bez kości",
+      "calories": "234",
+      "protein": "18",
+      "fat": "18",
+      "sugar": "0"
+    },
+    {
+      "name": "Baranina, mięso z kością",
+      "calories": "238",
+      "protein": "16.4",
+      "fat": "26.4",
+      "sugar": "0"
+    },
+    {
+      "name": "Baranina, udziec",
+      "calories": "234",
+      "protein": "18",
+      "fat": "18",
+      "sugar": "0"
+    },
+    {
+      "name": "Baton Bounty",
+      "calories": "470",
+      "protein": "4.2",
+      "fat": "25.2",
+      "sugar": "56.7"
+    },
+    {
+      "name": "Baton Knoppers",
+      "calories": "528",
+      "protein": "8",
+      "fat": "32",
+      "sugar": "52"
+    },
+    {
+      "name": "Baton Mars",
+      "calories": "454",
+      "protein": "3.6",
+      "fat": "18.2",
+      "sugar": "68.9"
+    },
+    {
+      "name": "Baton Milky Way",
+      "calories": "447",
+      "protein": "3.6",
+      "fat": "16.2",
+      "sugar": "71.8"
+    },
+    {
+      "name": "Baton Nestle Lion",
+      "calories": "491",
+      "protein": "7.4",
+      "fat": "22.7",
+      "sugar": "64.1"
+    },
+    {
+      "name": "Baton Snickers",
+      "calories": "509",
+      "protein": "9.7",
+      "fat": "28.9",
+      "sugar": "52.6"
+    },
+    {
+      "name": "Baton Twix",
+      "calories": "487",
+      "protein": "5.3",
+      "fat": "23.2",
+      "sugar": "64.2"
+    },
+    {
+      "name": "Bażant tuszka",
+      "calories": "108",
+      "protein": "22.3",
+      "fat": "1.9",
+      "sugar": "0.5"
+    },
+    {
+      "name": "Benecol, margaryna",
+      "calories": "540",
+      "protein": "0",
+      "fat": "60",
+      "sugar": "0"
+    },
+    {
+      "name": "Białko jaja kurzego",
+      "calories": "46",
+      "protein": "10.8",
+      "fat": "0",
+      "sugar": "0.8"
+    },
+    {
+      "name": "Bigos",
+      "calories": "126",
+      "protein": "5.6",
+      "fat": "9.8",
+      "sugar": "3.8"
+    },
+    {
+      "name": "Biszkopty, ciastka",
+      "calories": "400",
+      "protein": "9.3",
+      "fat": "7.5",
+      "sugar": "73.8"
+    },
+    {
+      "name": "Bobo Frut jabłkowy",
+      "calories": "42",
+      "protein": "0.1",
+      "fat": "0",
+      "sugar": "10.5"
+    },
+    {
+      "name": "Boczek wieprzowy",
+      "calories": "517",
+      "protein": "10.1",
+      "fat": "53",
+      "sugar": "0"
+    },
+    {
+      "name": "Boćwina",
+      "calories": "35",
+      "protein": "2.1",
+      "fat": "0.5",
+      "sugar": "5.5"
+    },
+    {
+      "name": "Borowik suszony",
+      "calories": "342",
+      "protein": "29",
+      "fat": "10",
+      "sugar": "34"
+    },
+    {
+      "name": "Borowik świeży",
+      "calories": "36",
+      "protein": "5.4",
+      "fat": "0.4",
+      "sugar": "2.7"
+    },
+    {
+      "name": "Bób",
+      "calories": "88",
+      "protein": "7.1",
+      "fat": "0.4",
+      "sugar": "14"
+    },
+    {
+      "name": "Brando, landrynki",
+      "calories": "390",
+      "protein": "0",
+      "fat": "0",
+      "sugar": "96.6"
+    },
+    {
+      "name": "Brandy",
+      "calories": "225",
+      "protein": "0",
+      "fat": "0",
+      "sugar": "0"
+    },
+    {
+      "name": "Brokuły",
+      "calories": "37",
+      "protein": "3.3",
+      "fat": "0.2",
+      "sugar": "5.5"
+    },
+    {
+      "name": "Brukselka",
+      "calories": "58",
+      "protein": "4.7",
+      "fat": "0.5",
+      "sugar": "8.7"
+    },
+    {
+      "name": "Brzoskwinia",
+      "calories": "59",
+      "protein": "1.3",
+      "fat": "0.7",
+      "sugar": "11.9"
+    },
+    {
+      "name": "Brzoskwinie, konserwa, odsączone",
+      "calories": "82",
+      "protein": "0.5",
+      "fat": "0.1",
+      "sugar": "19.8"
+    },
+    {
+      "name": "Budyń czekoladowy",
+      "calories": "95",
+      "protein": "2.8",
+      "fat": "2.1",
+      "sugar": "16.2"
+    },
+    {
+      "name": "Budyń waniliowy",
+      "calories": "91",
+      "protein": "2.5",
+      "fat": "2",
+      "sugar": "15.7"
+    },
+    {
+      "name": "Bułka grahamka",
+      "calories": "198",
+      "protein": "6.5",
+      "fat": "1.3",
+      "sugar": "40"
+    },
+    {
+      "name": "Bułka kajzerka",
+      "calories": "226",
+      "protein": "5.8",
+      "fat": "2.6",
+      "sugar": "44.8"
+    },
+    {
+      "name": "Bułka maślana",
+      "calories": "212",
+      "protein": "5.9",
+      "fat": "4.5",
+      "sugar": "47"
+    },
+    {
+      "name": "Bułka tarta",
+      "calories": "363",
+      "protein": "10.4",
+      "fat": "2.1",
+      "sugar": "75.6"
+    },
+    {
+      "name": "Bułka wrocławska",
+      "calories": "226",
+      "protein": "5.8",
+      "fat": "2.6",
+      "sugar": "44.8"
+    },
+    {
+      "name": "Bułka zwykła",
+      "calories": "217",
+      "protein": "5.8",
+      "fat": "1.1",
+      "sugar": "45.9"
+    },
+    {
+      "name": "Buraki",
+      "calories": "46",
+      "protein": "1.8",
+      "fat": "0.1",
+      "sugar": "9.8"
+    },
+    {
+      "name": "Cappuccino śmietankowe, proszek",
+      "calories": "385",
+      "protein": "5.3",
+      "fat": "9.9",
+      "sugar": "68.7"
+    },
+    {
+      "name": "Cebula",
+      "calories": "37",
+      "protein": "1.4",
+      "fat": "0.4",
+      "sugar": "6.9"
+    },
+    {
+      "name": "Cielęcina, łopatka",
+      "calories": "105",
+      "protein": "19.9",
+      "fat": "2.8",
+      "sugar": "0"
+    },
+    {
+      "name": "Cielęcina, mięso bez kości",
+      "calories": "108",
+      "protein": "19.9",
+      "fat": "3.1",
+      "sugar": "0"
+    },
+    {
+      "name": "Cielęcina, mięso z kością",
+      "calories": "151",
+      "protein": "19.7",
+      "fat": "8",
+      "sugar": "0"
+    },
+    {
+      "name": "Cielęcina, udziec",
+      "calories": "108",
+      "protein": "19.9",
+      "fat": "3.1",
+      "sugar": "0"
+    },
+    {
+      "name": "Chałka",
+      "calories": "252",
+      "protein": "5.8",
+      "fat": "4.4",
+      "sugar": "47"
+    },
+    {
+      "name": "Chałwa",
+      "calories": "531",
+      "protein": "8",
+      "fat": "31",
+      "sugar": "55"
+    },
+    {
+      "name": "Cheeseburger McDonald",
+      "calories": "278",
+      "protein": "12.6",
+      "fat": "11.8",
+      "sugar": "30.3"
+    },
+    {
+      "name": "Chipsy paprykowe",
+      "calories": "586",
+      "protein": "6",
+      "fat": "40",
+      "sugar": "50.4"
+    },
+    {
+      "name": "Cherry Brandy, alkohol",
+      "calories": "265",
+      "protein": "0",
+      "fat": "0",
+      "sugar": "32.4"
+    },
+    {
+      "name": "Chleb chrupki",
+      "calories": "372",
+      "protein": "8.7",
+      "fat": "2.4",
+      "sugar": "78.9"
+    },
+    {
+      "name": "Chleb pszenno-żytni",
+      "calories": "203",
+      "protein": "4.6",
+      "fat": "1.1",
+      "sugar": "43.7"
+    },
+    {
+      "name": "Chleb pszenny razowy",
+      "calories": "198",
+      "protein": "6.5",
+      "fat": "1.3",
+      "sugar": "40"
+    },
+    {
+      "name": "Chleb pszenny zwykły",
+      "calories": "217",
+      "protein": "5.8",
+      "fat": "1.1",
+      "sugar": "45.9"
+    },
+    {
+      "name": "Chleb pumpernikiel",
+      "calories": "241",
+      "protein": "4.9",
+      "fat": "1.7",
+      "sugar": "51.1"
+    },
+    {
+      "name": "Chleb żytni razowy",
+      "calories": "196",
+      "protein": "4.7",
+      "fat": "1.2",
+      "sugar": "41.5"
+    },
+    {
+      "name": "Chleb żytni zwykły",
+      "calories": "194",
+      "protein": "3.2",
+      "fat": "0.9",
+      "sugar": "43.4"
+    },
+    {
+      "name": "Chrupki kukurydziane",
+      "calories": "378",
+      "protein": "8.9",
+      "fat": "3",
+      "sugar": "78.9"
+    },
+    {
+      "name": "Coca Cola, napój",
+      "calories": "42",
+      "protein": "0",
+      "fat": "0",
+      "sugar": "10.4"
+    },
+    {
+      "name": "Coca Cola light, napój",
+      "calories": "0.24",
+      "protein": "0",
+      "fat": "0",
+      "sugar": "0"
+    },
+    {
+      "name": "Cukier",
+      "calories": "399",
+      "protein": "0",
+      "fat": "0",
+      "sugar": "99.8"
+    },
+    {
+      "name": "Cukierki owocowe",
+      "calories": "374",
+      "protein": "0.3",
+      "fat": "0.5",
+      "sugar": "92"
+    },
+    {
+      "name": "Cukinia",
+      "calories": "18",
+      "protein": "1",
+      "fat": "0.2",
+      "sugar": "3"
+    },
+    {
+      "name": "Curacao, likier",
+      "calories": "319",
+      "protein": "0",
+      "fat": "0",
+      "sugar": "27.6"
+    },
+    {
+      "name": "Cykoria",
+      "calories": "25",
+      "protein": "1.7",
+      "fat": "0.2",
+      "sugar": "4.1"
+    },
+    {
+      "name": "Cytryna",
+      "calories": "46",
+      "protein": "0.8",
+      "fat": "0.5",
+      "sugar": "9.5"
+    },
+    {
+      "name": "Czarne jagody",
+      "calories": "61",
+      "protein": "1.1",
+      "fat": "0.9",
+      "sugar": "12.2"
+    },
+    {
+      "name": "Czekolada biała",
+      "calories": "544",
+      "protein": "4.5",
+      "fat": "30.3",
+      "sugar": "63.2"
+    },
+    {
+      "name": "Czekolada deserowa",
+      "calories": "537",
+      "protein": "5.3",
+      "fat": "28.9",
+      "sugar": "64"
+    },
+    {
+      "name": "Czekolada gorzka",
+      "calories": "505",
+      "protein": "8.2",
+      "fat": "34.9",
+      "sugar": "38.7"
+    },
+    {
+      "name": "Czekolada mleczna",
+      "calories": "526",
+      "protein": "8",
+      "fat": "30.7",
+      "sugar": "54.2"
+    },
+    {
+      "name": "Czekolada nadziewana",
+      "calories": "449",
+      "protein": "3.9",
+      "fat": "17.6",
+      "sugar": "68.8"
+    },
+    {
+      "name": "Czekolada z orzechami",
+      "calories": "547",
+      "protein": "7.6",
+      "fat": "33.9",
+      "sugar": "52.7"
+    },
+    {
+      "name": "Czekoladka Kinder Niespodzianka",
+      "calories": "560",
+      "protein": "9.5",
+      "fat": "35.3",
+      "sugar": "51.5"
+    },
+    {
+      "name": "Czekoladki Ferrero Rocher",
+      "calories": "562",
+      "protein": "9",
+      "fat": "40.2",
+      "sugar": "41"
+    },
+    {
+      "name": "Czekoladki Golden Nut",
+      "calories": "576",
+      "protein": "6",
+      "fat": "39",
+      "sugar": "50.2"
+    },
+    {
+      "name": "Czekoladki Mon Cheri",
+      "calories": "421",
+      "protein": "3.2",
+      "fat": "19.7",
+      "sugar": "57.8"
+    },
+    {
+      "name": "Czekoladki Raffaello",
+      "calories": "600",
+      "protein": "9.7",
+      "fat": "46.6",
+      "sugar": "35.4"
+    },
+    {
+      "name": "Czekoladki Toffifee",
+      "calories": "535",
+      "protein": "6",
+      "fat": "31",
+      "sugar": "58"
+    },
+    {
+      "name": "Czereśnie",
+      "calories": "55",
+      "protein": "1",
+      "fat": "0.5",
+      "sugar": "11.6"
+    },
+    {
+      "name": "Czosnek",
+      "calories": "144",
+      "protein": "6.2",
+      "fat": "0.5",
+      "sugar": "28.8"
+    },
+    {
+      "name": "Daktyle suszone",
+      "calories": "316",
+      "protein": "2.2",
+      "fat": "0.6",
+      "sugar": "75.4"
+    },
+    {
+      "name": "Danonki, jogurt do picia",
+      "calories": "87",
+      "protein": "2.8",
+      "fat": "1.6",
+      "sugar": "15.4"
+    },
+    {
+      "name": "Delicje, ciastka",
+      "calories": "376",
+      "protein": "3.5",
+      "fat": "8.4",
+      "sugar": "71.5"
+    },
+    {
+      "name": "Delma, margaryna",
+      "calories": "496",
+      "protein": "0",
+      "fat": "55",
+      "sugar": "0.2"
+    },
+    {
+      "name": "Deser czekoladowy Monte",
+      "calories": "195",
+      "protein": "2.8",
+      "fat": "13.3",
+      "sugar": "15.9"
+    },
+    {
+      "name": "Dorsz świeży",
+      "calories": "69",
+      "protein": "16.5",
+      "fat": "0.3",
+      "sugar": "0"
+    },
+    {
+      "name": "Dorsz wędzony",
+      "calories": "93",
+      "protein": "22.1",
+      "fat": "0.5",
+      "sugar": "0"
+    },
+    {
+      "name": "Drażetki Tic Tac",
+      "calories": "390",
+      "protein": "0",
+      "fat": "0",
+      "sugar": "97.5"
+    },
+    {
+      "name": "Drożdże piekarskie",
+      "calories": "132",
+      "protein": "11.3",
+      "fat": "2",
+      "sugar": "14.5"
+    },
+    {
+      "name": "Drożdżówka",
+      "calories": "321",
+      "protein": "6",
+      "fat": "9",
+      "sugar": "50"
+    },
+    {
+      "name": "Dynia",
+      "calories": "39",
+      "protein": "1.3",
+      "fat": "0.3",
+      "sugar": "7.7"
+    },
+    {
+      "name": "Dynia, pestki",
+      "calories": "582",
+      "protein": "24.5",
+      "fat": "45.8",
+      "sugar": "18"
+    },
+    {
+      "name": "Dżem niskosłodzony",
+      "calories": "163",
+      "protein": "0.5",
+      "fat": "0",
+      "sugar": "63"
+    },
+    {
+      "name": "Dżem wysokosłodzony",
+      "calories": "257",
+      "protein": "0.5",
+      "fat": "0.2",
+      "sugar": "63.4"
+    },
+    {
+      "name": "Eklerka, ciastko",
+      "calories": "301",
+      "protein": "5",
+      "fat": "9",
+      "sugar": "50"
+    },
+    {
+      "name": "Endywia",
+      "calories": "17",
+      "protein": "1.8",
+      "fat": "0.6",
+      "sugar": "1"
+    },
+    {
+      "name": "Familijne, wafle",
+      "calories": "533",
+      "protein": "7.1",
+      "fat": "29.6",
+      "sugar": "59.5"
+    },
+    {
+      "name": "Fasola biała, konserwa",
+      "calories": "87",
+      "protein": "4.5",
+      "fat": "0.2",
+      "sugar": "16.7"
+    },
+    {
+      "name": "Fasola biała, ziarno suche",
+      "calories": "346",
+      "protein": "21.4",
+      "fat": "1.6",
+      "sugar": "61.6"
+    },
+    {
+      "name": "Fasola czerwona Red Kidney, konserwa",
+      "calories": "104",
+      "protein": "6.9",
+      "fat": "0.6",
+      "sugar": "17.8"
+    },
+    {
+      "name": "Fasola szparagowa",
+      "calories": "42",
+      "protein": "2.4",
+      "fat": "0.2",
+      "sugar": "7.6"
+    },
+    {
+      "name": "Fasola szparagowa, konserwa",
+      "calories": "26",
+      "protein": "1.5",
+      "fat": "0.2",
+      "sugar": "4.5"
+    },
+    {
+      "name": "Fasolka po bretońsku",
+      "calories": "158",
+      "protein": "6.1",
+      "fat": "8.7",
+      "sugar": "13.7"
+    },
+    {
+      "name": "Ferrero Rocher, czekoladki",
+      "calories": "562",
+      "protein": "9",
+      "fat": "40.2",
+      "sugar": "41"
+    },
+    {
+      "name": "Figi suszone",
+      "calories": "300",
+      "protein": "4",
+      "fat": "1.2",
+      "sugar": "68.4"
+    },
+    {
+      "name": "Flaki wołowe, suche",
+      "calories": "84",
+      "protein": "16",
+      "fat": "2.2",
+      "sugar": "0"
+    },
+    {
+      "name": "Flaki wołowe na rosole",
+      "calories": "71",
+      "protein": "4.6",
+      "fat": "4.2",
+      "sugar": "3.7"
+    },
+    {
+      "name": "Flądra świeża",
+      "calories": "84",
+      "protein": "16.5",
+      "fat": "1.8",
+      "sugar": "0"
+    },
+    {
+      "name": "Flora, margaryna",
+      "calories": "328",
+      "protein": "0.1",
+      "fat": "35",
+      "sugar": "3.2"
+    },
+    {
+      "name": "Frytki mrożone",
+      "calories": "172",
+      "protein": "2.5",
+      "fat": "5.5",
+      "sugar": "28"
+    },
+    {
+      "name": "Frytki z frytownicy",
+      "calories": "252",
+      "protein": "3",
+      "fat": "12",
+      "sugar": "33"
+    },
+    {
+      "name": "Frytki z piekarnika",
+      "calories": "231",
+      "protein": "3.5",
+      "fat": "5",
+      "sugar": "37"
+    },
+    {
+      "name": "Galaretka pomarańczowa",
+      "calories": "59",
+      "protein": "2.8",
+      "fat": "0",
+      "sugar": "12"
+    },
+    {
+      "name": "Gęś tuszka",
+      "calories": "343",
+      "protein": "14.1",
+      "fat": "31.8",
+      "sugar": "0"
+    },
+    {
+      "name": "Gin",
+      "calories": "225",
+      "protein": "0",
+      "fat": "0",
+      "sugar": "0"
+    },
+    {
+      "name": "Golden Nut, czekoladki",
+      "calories": "576",
+      "protein": "6",
+      "fat": "39",
+      "sugar": "50.2"
+    },
+    {
+      "name": "Golonka ze skórą wieprzowa",
+      "calories": "297",
+      "protein": "18.6",
+      "fat": "24.7",
+      "sugar": "0"
+    },
+    {
+      "name": "Gołąbki w sosie pomidorowym",
+      "calories": "116",
+      "protein": "3.8",
+      "fat": "6.7",
+      "sugar": "10"
+    },
+    {
+      "name": "Granat",
+      "calories": "65",
+      "protein": "2.4",
+      "fat": "0.4",
+      "sugar": "13.2"
+    },
+    {
+      "name": "Grejfrut",
+      "calories": "43",
+      "protein": "0.6",
+      "fat": "0.2",
+      "sugar": "9.8"
+    },
+    {
+      "name": "Groch, suche ziarno",
+      "calories": "349",
+      "protein": "23.8",
+      "fat": "1.4",
+      "sugar": "60.4"
+    },
+    {
+      "name": "Groszek zielony",
+      "calories": "98",
+      "protein": "6.7",
+      "fat": "0.4",
+      "sugar": "17"
+    },
+    {
+      "name": "Groszek zielony, konserwa",
+      "calories": "83",
+      "protein": "4.5",
+      "fat": "0.2",
+      "sugar": "15.8"
+    },
+    {
+      "name": "Gruszka",
+      "calories": "62",
+      "protein": "0.6",
+      "fat": "0.2",
+      "sugar": "14.4"
+    },
+    {
+      "name": "Gruszka suszona",
+      "calories": "329",
+      "protein": "0.7",
+      "fat": "0.5",
+      "sugar": "80.4"
+    },
+    {
+      "name": "Grześki, wafel",
+      "calories": "550",
+      "protein": "8.5",
+      "fat": "34.5",
+      "sugar": "51.5"
+    },
+    {
+      "name": "Halibut świeży",
+      "calories": "121",
+      "protein": "18.6",
+      "fat": "5.2",
+      "sugar": "0"
+    },
+    {
+      "name": "Hamburger",
+      "calories": "268",
+      "protein": "11.4",
+      "fat": "9.5",
+      "sugar": "34.3"
+    },
+    {
+      "name": "Hamburger Big Mac McDonald",
+      "calories": "273",
+      "protein": "11.4",
+      "fat": "15.1",
+      "sugar": "22.8"
+    },
+    {
+      "name": "Hamburger McChicken McDonald",
+      "calories": "295",
+      "protein": "9.7",
+      "fat": "15.9",
+      "sugar": "28.3"
+    },
+    {
+      "name": "Herbata",
+      "calories": "0",
+      "protein": "0.1",
+      "fat": "0",
+      "sugar": "0"
+    },
+    {
+      "name": "Herbatniki",
+      "calories": "439",
+      "protein": "8.2",
+      "fat": "11",
+      "sugar": "76.8"
+    },
+    {
+      "name": "Homary",
+      "calories": "85",
+      "protein": "18.8",
+      "fat": "0.9",
+      "sugar": "0.5"
+    },
+    {
+      "name": "Indyk, piersi bez skóry",
+      "calories": "109",
+      "protein": "21.3",
+      "fat": "2.6",
+      "sugar": "0"
+    },
+    {
+      "name": "Indyk, skrzydło bez skóry",
+      "calories": "169",
+      "protein": "16.5",
+      "fat": "11.4",
+      "sugar": "0"
+    },
+    {
+      "name": "Indyk, udo bez skóry",
+      "calories": "118",
+      "protein": "19.5",
+      "fat": "4.4",
+      "sugar": "0"
+    },
+    {
+      "name": "Irysy, cukierki",
+      "calories": "418",
+      "protein": "4.3",
+      "fat": "10.7",
+      "sugar": "76.1"
+    },
+    {
+      "name": "Jabłko",
+      "calories": "57",
+      "protein": "0.6",
+      "fat": "0.7",
+      "sugar": "12.1"
+    },
+    {
+      "name": "Jabłko suszone",
+      "calories": "332",
+      "protein": "1.5",
+      "fat": "1.1",
+      "sugar": "78.9"
+    },
+    {
+      "name": "Jagodzianka, ciastko",
+      "calories": "322",
+      "protein": "7.1",
+      "fat": "5.5",
+      "sugar": "61.1"
+    },
+    {
+      "name": "Jaja sadzone",
+      "calories": "181",
+      "protein": "10.1",
+      "fat": "15.2",
+      "sugar": "0.9"
+    },
+    {
+      "name": "Jajecznica",
+      "calories": "131",
+      "protein": "10",
+      "fat": "9.7",
+      "sugar": "0.8"
+    },
+    {
+      "name": "Jajo kurze, białko",
+      "calories": "46",
+      "protein": "10.8",
+      "fat": "0",
+      "sugar": "0.8"
+    },
+    {
+      "name": "Jajo kurze, całe",
+      "calories": "150",
+      "protein": "12.5",
+      "fat": "10.7",
+      "sugar": "1"
+    },
+    {
+      "name": "Jajo kurze, żółtko",
+      "calories": "355",
+      "protein": "16.3",
+      "fat": "31.9",
+      "sugar": "0.7"
+    },
+    {
+      "name": "Jagnięcina",
+      "calories": "126",
+      "protein": "20.4",
+      "fat": "4.9",
+      "sugar": "0"
+    },
+    {
+      "name": "Jagody",
+      "calories": "61",
+      "protein": "1.1",
+      "fat": "0.9",
+      "sugar": "12.2"
+    },
+    {
+      "name": "Jałowcówka, wódka",
+      "calories": "225",
+      "protein": "0",
+      "fat": "0",
+      "sugar": "0"
+    },
+    {
+      "name": "Jarmuż",
+      "calories": "29",
+      "protein": "3.3",
+      "fat": "0.7",
+      "sugar": "6.1"
+    },
+    {
+      "name": "Jeżyki, ciastka",
+      "calories": "457",
+      "protein": "5",
+      "fat": "21.3",
+      "sugar": "61.2"
+    },
+    {
+      "name": "Jeżyny",
+      "calories": "71",
+      "protein": "1.2",
+      "fat": "0.4",
+      "sugar": "15.7"
+    },
+    {
+      "name": "Jogurt do picia Danonki",
+      "calories": "87",
+      "protein": "2.8",
+      "fat": "1.6",
+      "sugar": "15.4"
+    },
+    {
+      "name": "Jogurt naturalny 0% tłuszczu",
+      "calories": "42",
+      "protein": "4.2",
+      "fat": "0",
+      "sugar": "6.2"
+    },
+    {
+      "name": "Jogurt naturalny 2% tłuszczu",
+      "calories": "60",
+      "protein": "4.3",
+      "fat": "2",
+      "sugar": "6.2"
+    },
+    {
+      "name": "Jogurt owocowy 1,5% tłuszczu",
+      "calories": "84",
+      "protein": "3.9",
+      "fat": "1.5",
+      "sugar": "13.7"
+    },
+    {
+      "name": "Jogurt owocowy 2,7% tłuszczu",
+      "calories": "99",
+      "protein": "3.3",
+      "fat": "2.7",
+      "sugar": "15.3"
+    },
+    {
+      "name": "Kabaczek",
+      "calories": "31",
+      "protein": "1",
+      "fat": "0.1",
+      "sugar": "6.5"
+    },
+    {
+      "name": "Kabanosy",
+      "calories": "319",
+      "protein": "28",
+      "fat": "23",
+      "sugar": "0"
+    },
+    {
+      "name": "Kaczka tuszka",
+      "calories": "311",
+      "protein": "13.5",
+      "fat": "28.6",
+      "sugar": "0"
+    },
+    {
+      "name": "Kaczka dzika tuszka",
+      "calories": "121",
+      "protein": "22.7",
+      "fat": "3.1",
+      "sugar": "0.5"
+    },
+    {
+      "name": "Kakao 16% tłuszczu, proszek",
+      "calories": "425",
+      "protein": "18.2",
+      "fat": "15.8",
+      "sugar": "52.6"
+    },
+    {
+      "name": "Kakao Nesquik, proszek",
+      "calories": "380",
+      "protein": "3.5",
+      "fat": "3",
+      "sugar": "84.3"
+    },
+    {
+      "name": "Kalafior",
+      "calories": "31",
+      "protein": "2.4",
+      "fat": "0.2",
+      "sugar": "5"
+    },
+    {
+      "name": "Kalarepa",
+      "calories": "33",
+      "protein": "1.7",
+      "fat": "0.1",
+      "sugar": "6.2"
+    },
+    {
+      "name": "Kapusta biała",
+      "calories": "38",
+      "protein": "1.7",
+      "fat": "0.2",
+      "sugar": "7.4"
+    },
+    {
+      "name": "Kapusta czerwona",
+      "calories": "45",
+      "protein": "1.9",
+      "fat": "0.2",
+      "sugar": "9"
+    },
+    {
+      "name": "Kapusta kiszona",
+      "calories": "20",
+      "protein": "1.1",
+      "fat": "0.2",
+      "sugar": "3.4"
+    },
+    {
+      "name": "Kapusta włoska",
+      "calories": "50",
+      "protein": "3.3",
+      "fat": "0.6",
+      "sugar": "7.8"
+    },
+    {
+      "name": "Karczochy",
+      "calories": "57",
+      "protein": "3.3",
+      "fat": "0.2",
+      "sugar": "10.5"
+    },
+    {
+      "name": "Karkówka wieprzowa",
+      "calories": "270",
+      "protein": "16.1",
+      "fat": "22.8",
+      "sugar": "0"
+    },
+    {
+      "name": "Karp świeży",
+      "calories": "122",
+      "protein": "17.8",
+      "fat": "5.6",
+      "sugar": "0"
+    },
+    {
+      "name": "Kaszanka",
+      "calories": "274",
+      "protein": "9",
+      "fat": "19.5",
+      "sugar": "14.5"
+    },
+    {
+      "name": "Kasza gryczana",
+      "calories": "359",
+      "protein": "12",
+      "fat": "3",
+      "sugar": "70"
+    },
+    {
+      "name": "Kasza jaglana",
+      "calories": "355",
+      "protein": "10.5",
+      "fat": "2.9",
+      "sugar": "71.6"
+    },
+    {
+      "name": "Kasza jęczmienna",
+      "calories": "358",
+      "protein": "8",
+      "fat": "2",
+      "sugar": "74"
+    },
+    {
+      "name": "Kasza jęczmienna pęczak",
+      "calories": "381",
+      "protein": "7.9",
+      "fat": "1.7",
+      "sugar": "83.6"
+    },
+    {
+      "name": "Kasza kuskus",
+      "calories": "358",
+      "protein": "13",
+      "fat": "2",
+      "sugar": "72"
+    },
+    {
+      "name": "Kasza manna",
+      "calories": "353",
+      "protein": "8.7",
+      "fat": "1.3",
+      "sugar": "76.7"
+    },
+    {
+      "name": "Kawa bez cukru",
+      "calories": "2",
+      "protein": "0.2",
+      "fat": "0",
+      "sugar": "0.3"
+    },
+    {
+      "name": "Kawior",
+      "calories": "250",
+      "protein": "24",
+      "fat": "18",
+      "sugar": "4"
+    },
+    {
+      "name": "Kefir 2% tłuszczu",
+      "calories": "44",
+      "protein": "2.6",
+      "fat": "2",
+      "sugar": "3.8"
+    },
+    {
+      "name": "Keks bakaliowy",
+      "calories": "401",
+      "protein": "6.4",
+      "fat": "17.8",
+      "sugar": "53.8"
+    },
+    {
+      "name": "Ketchup",
+      "calories": "113",
+      "protein": "1.1",
+      "fat": "0.3",
+      "sugar": "26.5"
+    },
+    {
+      "name": "Kinder Niespodzianka, czekoladka",
+      "calories": "560",
+      "protein": "9.5",
+      "fat": "35.3",
+      "sugar": "51.5"
+    },
+    {
+      "name": "KFC, kurczak Hot Wings",
+      "calories": "318",
+      "protein": "17.4",
+      "fat": "20.8",
+      "sugar": "15.3"
+    },
+    {
+      "name": "KFC, Twister",
+      "calories": "266",
+      "protein": "10.7",
+      "fat": "15.1",
+      "sugar": "21.9"
+    },
+    {
+      "name": "Kiełbasa krakowska parzona",
+      "calories": "168",
+      "protein": "20.1",
+      "fat": "9.7",
+      "sugar": "0"
+    },
+    {
+      "name": "Kiełbasa krakowska sucha",
+      "calories": "326",
+      "protein": "25.6",
+      "fat": "24.8",
+      "sugar": "0"
+    },
+    {
+      "name": "Kiełbasa mielona",
+      "calories": "206",
+      "protein": "17",
+      "fat": "14.2",
+      "sugar": "2.6"
+    },
+    {
+      "name": "Kiełbasa mortadela",
+      "calories": "207",
+      "protein": "12",
+      "fat": "17.7"
+    },
+    {
+      "name": "Kiełbasa myśliwska",
+      "calories": "395",
+      "protein": "23",
+      "fat": "33.5",
+      "sugar": "0"
+    },
+    {
+      "name": "Kiełbasa parówkowa",
+      "calories": "334",
+      "protein": "11.3",
+      "fat": "32",
+      "sugar": "0.1"
+    },
+    {
+      "name": "Kiełbasa podwawelska",
+      "calories": "249",
+      "protein": "17.3",
+      "fat": "19.6",
+      "sugar": "0.9"
+    },
+    {
+      "name": "Kiełbasa szynkowa",
+      "calories": "162",
+      "protein": "18",
+      "fat": "10",
+      "sugar": "0"
+    },
+    {
+      "name": "Kiełbasa szynkowa z indyka",
+      "calories": "89",
+      "protein": "17.2",
+      "fat": "2",
+      "sugar": "0.2"
+    },
+    {
+      "name": "Kiełbasa szynkowa z kurczaka",
+      "calories": "111",
+      "protein": "16.2",
+      "fat": "5",
+      "sugar": "0"
+    },
+    {
+      "name": "Kiełbasa toruńska",
+      "calories": "265",
+      "protein": "20.9",
+      "fat": "20.1",
+      "sugar": "0"
+    },
+    {
+      "name": "Kiełbasa zwyczajna",
+      "calories": "199",
+      "protein": "18.6",
+      "fat": "13.8",
+      "sugar": "0.1"
+    },
+    {
+      "name": "Kiełbasa żywiecka",
+      "calories": "318",
+      "protein": "20.3",
+      "fat": "26.3",
+      "sugar": "0"
+    },
+    {
+      "name": "Kiełki fasoli, konserwa, odsączone",
+      "calories": "15",
+      "protein": "1.4",
+      "fat": "0.1",
+      "sugar": "2.1"
+    },
+    {
+      "name": "Kinder Bueno, wafel",
+      "calories": "532",
+      "protein": "5.5",
+      "fat": "35.5",
+      "sugar": "47.6"
+    },
+    {
+      "name": "Kisiel",
+      "calories": "103",
+      "protein": "0.3",
+      "fat": "0.1",
+      "sugar": "25.3"
+    },
+    {
+      "name": "Kiszka pasztetowa",
+      "calories": "387",
+      "protein": "12.5",
+      "fat": "35.7",
+      "sugar": "4.3"
+    },
+    {
+      "name": "Kiwi",
+      "calories": "64",
+      "protein": "0.9",
+      "fat": "0.5",
+      "sugar": "13.9"
+    },
+    {
+      "name": "Kiszone ogórki",
+      "calories": "12",
+      "protein": "0.7",
+      "fat": "0.2",
+      "sugar": "1.9"
+    },
+    {
+      "name": "Kluski śląskie",
+      "calories": "155",
+      "protein": "2",
+      "fat": "0.1",
+      "sugar": "36.6"
+    },
+    {
+      "name": "Knoppers, baton",
+      "calories": "528",
+      "protein": "8",
+      "fat": "32",
+      "sugar": "52"
+    },
+    {
+      "name": "Kompot owocowy",
+      "calories": "69",
+      "protein": "0.2",
+      "fat": "0.1",
+      "sugar": "16.9"
+    },
+    {
+      "name": "Koncentrat pomidorowy 30%",
+      "calories": "107",
+      "protein": "5.6",
+      "fat": "2",
+      "sugar": "16.7"
+    },
+    {
+      "name": "Konina, mięso bez kości",
+      "calories": "108",
+      "protein": "21.5",
+      "fat": "2.5",
+      "sugar": "0"
+    },
+    {
+      "name": "Kopytka ziemniaczane mrożone",
+      "calories": "169",
+      "protein": "2.2",
+      "fat": "0.8",
+      "sugar": "38.2"
+    },
+    {
+      "name": "Kotlet schabowy panierowany",
+      "calories": "357",
+      "protein": "19",
+      "fat": "24.1",
+      "sugar": "15.9"
+    },
+    {
+      "name": "Krem czekoladowy Nutella",
+      "calories": "533",
+      "protein": "6.5",
+      "fat": "31",
+      "sugar": "57"
+    },
+    {
+      "name": "Krewetki",
+      "calories": "86",
+      "protein": "18.1",
+      "fat": "0.8",
+      "sugar": "1.5"
+    },
+    {
+      "name": "Królik tuszka",
+      "calories": "156",
+      "protein": "21",
+      "fat": "8",
+      "sugar": "0"
+    },
+    {
+      "name": "Kubuś Multiwitamina, napój",
+      "calories": "48",
+      "protein": "0.3",
+      "fat": "0.1",
+      "sugar": "11.5"
+    },
+    {
+      "name": "Kukurydza, konserwa",
+      "calories": "94",
+      "protein": "2.9",
+      "fat": "1.2",
+      "sugar": "17.8"
+    },
+    {
+      "name": "Kukurydza ziarno",
+      "calories": "145",
+      "protein": "3.7",
+      "fat": "1.5",
+      "sugar": "29.1"
+    },
+    {
+      "name": "Kura tuszka",
+      "calories": "203",
+      "protein": "18.5",
+      "fat": "14.3",
+      "sugar": "0"
+    },
+    {
+      "name": "Kurczak Hot Wings KFC",
+      "calories": "318",
+      "protein": "17.4",
+      "fat": "20.8",
+      "sugar": "15.3"
+    },
+    {
+      "name": "Kurczak, piersi bez skóry",
+      "calories": "100",
+      "protein": "21.5",
+      "fat": "1.3",
+      "sugar": "0"
+    },
+    {
+      "name": "Kurczak, piersi ze skórą",
+      "calories": "155",
+      "protein": "19.3",
+      "fat": "8.6",
+      "sugar": "0"
+    },
+    {
+      "name": "Kurczak tuszka",
+      "calories": "158",
+      "protein": "18.6",
+      "fat": "9.3",
+      "sugar": "0"
+    },
+    {
+      "name": "Kurczak, udo bez skóry",
+      "calories": "125",
+      "protein": "17.8",
+      "fat": "6",
+      "sugar": "0"
+    },
+    {
+      "name": "Kurczak, udo ze skórą",
+      "calories": "161",
+      "protein": "17.8",
+      "fat": "10",
+      "sugar": "0"
+    },
+    {
+      "name": "Kurka świeża, grzyb",
+      "calories": "23",
+      "protein": "1",
+      "fat": "0.4",
+      "sugar": "3.8"
+    },
+    {
+      "name": "Kuropatwa tuszka",
+      "calories": "112",
+      "protein": "24.3",
+      "fat": "1.4",
+      "sugar": "0.5"
+    },
+    {
+      "name": "Landrynki Brando",
+      "calories": "390",
+      "protein": "0",
+      "fat": "0",
+      "sugar": "96.6"
+    },
+    {
+      "name": "Likier Advocat",
+      "calories": "280",
+      "protein": "4.4",
+      "fat": "6",
+      "sugar": "28.4"
+    },
+    {
+      "name": "Likier Curacao",
+      "calories": "319",
+      "protein": "0",
+      "fat": "0",
+      "sugar": "27.6"
+    },
+    {
+      "name": "Lody bakaliowe",
+      "calories": "133",
+      "protein": "2.2",
+      "fat": "7.2",
+      "sugar": "14.6"
+    },
+    {
+      "name": "Lody czekoladowe",
+      "calories": "128",
+      "protein": "2.1",
+      "fat": "6.1",
+      "sugar": "16.1"
+    },
+    {
+      "name": "Lody orzechowe",
+      "calories": "135",
+      "protein": "2.4",
+      "fat": "8",
+      "sugar": "13.4"
+    },
+    {
+      "name": "Lody owocowe",
+      "calories": "114",
+      "protein": "1.5",
+      "fat": "5.3",
+      "sugar": "15"
+    },
+    {
+      "name": "Lody śmietankowe",
+      "calories": "135",
+      "protein": "1.7",
+      "fat": "7.6",
+      "sugar": "15.2"
+    },
+    {
+      "name": "Lody waniliowe",
+      "calories": "120",
+      "protein": "1.8",
+      "fat": "6.5",
+      "sugar": "13.6"
+    },
+    {
+      "name": "Łopatka barania",
+      "calories": "287",
+      "protein": "15.6",
+      "fat": "25",
+      "sugar": "0"
+    },
+    {
+      "name": "Łopatka cielęca",
+      "calories": "105",
+      "protein": "19.9",
+      "fat": "2.8",
+      "sugar": "0"
+    },
+    {
+      "name": "Łopatka wieprzowa",
+      "calories": "259",
+      "protein": "16",
+      "fat": "21.7",
+      "sugar": "0"
+    },
+    {
+      "name": "Łosoś świeży",
+      "calories": "202",
+      "protein": "19.9",
+      "fat": "13.6",
+      "sugar": "0"
+    },
+    {
+      "name": "Łosoś wędzony",
+      "calories": "176",
+      "protein": "20.5",
+      "fat": "9.5",
+      "sugar": "1.5"
+    },
+    {
+      "name": "Majonez",
+      "calories": "732",
+      "protein": "1.1",
+      "fat": "79",
+      "sugar": "4.2"
+    },
+    {
+      "name": "Maggi, przyprawa do zup",
+      "calories": "17",
+      "protein": "2.7",
+      "fat": "0",
+      "sugar": "1.5"
+    },
+    {
+      "name": "Mak",
+      "calories": "542",
+      "protein": "19.5",
+      "fat": "40.8",
+      "sugar": "24.3"
+    },
+    {
+      "name": "Makowiec",
+      "calories": "348",
+      "protein": "7",
+      "fat": "16",
+      "sugar": "44"
+    },
+    {
+      "name": "Makaron bezjajeczny",
+      "calories": "368",
+      "protein": "10",
+      "fat": "1.6",
+      "sugar": "78.5"
+    },
+    {
+      "name": "Makaron bezjajeczny z pszenicy durum",
+      "calories": "375",
+      "protein": "12.8",
+      "fat": "1.7",
+      "sugar": "77.2"
+    },
+    {
+      "name": "Makaron czterojajeczny",
+      "calories": "383",
+      "protein": "12",
+      "fat": "3.4",
+      "sugar": "76.2"
+    },
+    {
+      "name": "Makaron dwujajeczny",
+      "calories": "364",
+      "protein": "12",
+      "fat": "3.1",
+      "sugar": "72"
+    },
+    {
+      "name": "Makrela wędzona",
+      "calories": "222",
+      "protein": "22.7",
+      "fat": "15.5",
+      "sugar": "0"
+    },
+    {
+      "name": "Maliny",
+      "calories": "63",
+      "protein": "1.7",
+      "fat": "0.9",
+      "sugar": "12"
+    },
+    {
+      "name": "Mandarynka",
+      "calories": "34",
+      "protein": "0.5",
+      "fat": "0.2",
+      "sugar": "7.5"
+    },
+    {
+      "name": "Mango",
+      "calories": "73",
+      "protein": "0.5",
+      "fat": "0.3",
+      "sugar": "17"
+    },
+    {
+      "name": "Marakuja",
+      "calories": "34",
+      "protein": "2.8",
+      "fat": "0.2",
+      "sugar": "6.2"
+    },
+    {
+      "name": "Marchew",
+      "calories": "41",
+      "protein": "1",
+      "fat": "0.2",
+      "sugar": "8.7"
+    },
+    {
+      "name": "Margaryna Benecol",
+      "calories": "540",
+      "protein": "0",
+      "fat": "60",
+      "sugar": "0"
+    },
+    {
+      "name": "Margaryna Delma",
+      "calories": "496",
+      "protein": "0",
+      "fat": "55",
+      "sugar": "0.2"
+    },
+    {
+      "name": "Margaryna Flora",
+      "calories": "328",
+      "protein": "0.1",
+      "fat": "35",
+      "sugar": "3.2"
+    },
+    {
+      "name": "Margaryna mleczna",
+      "calories": "738",
+      "protein": "0",
+      "fat": "82",
+      "sugar": "0"
+    },
+    {
+      "name": "Margaryna Pani Domu",
+      "calories": "360",
+      "protein": "0",
+      "fat": "40",
+      "sugar": "0"
+    },
+    {
+      "name": "Margaryna Rama Classic",
+      "calories": "631",
+      "protein": "0",
+      "fat": "70",
+      "sugar": "0.2"
+    },
+    {
+      "name": "Margaryna Vita",
+      "calories": "360",
+      "protein": "0",
+      "fat": "40",
+      "sugar": "0"
+    },
+    {
+      "name": "Markizy, ciastka",
+      "calories": "487",
+      "protein": "5.6",
+      "fat": "23",
+      "sugar": "64.3"
+    },
+    {
+      "name": "Mars, baton",
+      "calories": "454",
+      "protein": "3.6",
+      "fat": "18.2",
+      "sugar": "68.9"
+    },
+    {
+      "name": "Masło ekstra",
+      "calories": "748",
+      "protein": "0.7",
+      "fat": "82.5",
+      "sugar": "0.7"
+    },
+    {
+      "name": "Masło roślinne",
+      "calories": "747",
+      "protein": "0",
+      "fat": "83",
+      "sugar": "0"
+    },
+    {
+      "name": "Masło śmietankowe",
+      "calories": "670",
+      "protein": "1.1",
+      "fat": "73.5",
+      "sugar": "1.1"
+    },
+    {
+      "name": "Maślanka 0,5% tłuszczu",
+      "calories": "34",
+      "protein": "3.3",
+      "fat": "0.5",
+      "sugar": "4"
+    },
+    {
+      "name": "Mączka ziemniaczana",
+      "calories": "339",
+      "protein": "0.6",
+      "fat": "0.1",
+      "sugar": "83.9"
+    },
+    {
+      "name": "Mąka pszenna 500",
+      "calories": "347",
+      "protein": "9.2",
+      "fat": "1.2",
+      "sugar": "74.9"
+    },
+    {
+      "name": "Mąka pszenna 550",
+      "calories": "348",
+      "protein": "9.4",
+      "fat": "1.6",
+      "sugar": "74.1"
+    },
+    {
+      "name": "Melon",
+      "calories": "16",
+      "protein": "0.4",
+      "fat": "0.1",
+      "sugar": "3.4"
+    },
+    {
+      "name": "Metka",
+      "calories": "419",
+      "protein": "15",
+      "fat": "31",
+      "sugar": "20"
+    },
+    {
+      "name": "Mielonka",
+      "calories": "206",
+      "protein": "17",
+      "fat": "14",
+      "sugar": "2.5"
+    },
+    {
+      "name": "Migdały",
+      "calories": "640",
+      "protein": "18.5",
+      "fat": "54",
+      "sugar": "19.5"
+    },
+    {
+      "name": "Milky Way, baton",
+      "calories": "447",
+      "protein": "3.6",
+      "fat": "16.2",
+      "sugar": "71.8"
+    },
+    {
+      "name": "Mintaj świeży",
+      "calories": "72",
+      "protein": "16.6",
+      "fat": "0.6",
+      "sugar": "0"
+    },
+    {
+      "name": "Miód pszczeli",
+      "calories": "319",
+      "protein": "0.3",
+      "fat": "0",
+      "sugar": "79.5"
+    },
+    {
+      "name": "Mirinda, napój",
+      "calories": "52",
+      "protein": "0",
+      "fat": "0",
+      "sugar": "12.9"
+    },
+    {
+      "name": "Mleko 0% tłuszczu",
+      "calories": "33",
+      "protein": "3.4",
+      "fat": "0",
+      "sugar": "4.8"
+    },
+    {
+      "name": "Mleko 0,5% tłuszczu",
+      "calories": "36",
+      "protein": "3.2",
+      "fat": "0.5",
+      "sugar": "4.7"
+    },
+    {
+      "name": "Mleko 2% tłuszczu",
+      "calories": "47",
+      "protein": "3",
+      "fat": "2",
+      "sugar": "4.3"
+    },
+    {
+      "name": "Mleko 3,2% tłuszczu",
+      "calories": "58",
+      "protein": "3",
+      "fat": "3.2",
+      "sugar": "4.3"
+    },
+    {
+      "name": "Mleko jogurtowe Actimel",
+      "calories": "88",
+      "protein": "2.7",
+      "fat": "1.5",
+      "sugar": "16"
+    },
+    {
+      "name": "Mleko kozie",
+      "calories": "72",
+      "protein": "3.3",
+      "fat": "4.5",
+      "sugar": "4.6"
+    },
+    {
+      "name": "Mleko owcze",
+      "calories": "107",
+      "protein": "6.1",
+      "fat": "6.9",
+      "sugar": "5.1"
+    },
+    {
+      "name": "Mleko w proszku pełne",
+      "calories": "479",
+      "protein": "27",
+      "fat": "24",
+      "sugar": "38.7"
+    },
+    {
+      "name": "Mleko zagęszczone niesłodzone",
+      "calories": "132",
+      "protein": "6.6",
+      "fat": "7.5",
+      "sugar": "9.4"
+    },
+    {
+      "name": "Mleko zagęszczone słodzone",
+      "calories": "323",
+      "protein": "7.5",
+      "fat": "8",
+      "sugar": "55.3"
+    },
+    {
+      "name": "Monte, deser czekoladowy",
+      "calories": "195",
+      "protein": "2.8",
+      "fat": "13.3",
+      "sugar": "15.9"
+    },
+    {
+      "name": "Morele",
+      "calories": "52",
+      "protein": "0.7",
+      "fat": "0.2",
+      "sugar": "11.9"
+    },
+    {
+      "name": "Morele suszone",
+      "calories": "308",
+      "protein": "4.5",
+      "fat": "0",
+      "sugar": "72"
+    },
+    {
+      "name": "Morlinki, parówki dla dzieci",
+      "calories": "223",
+      "protein": "12.4",
+      "fat": "19.1",
+      "sugar": "0.4"
+    },
+    {
+      "name": "Morszczuk świeży",
+      "calories": "89",
+      "protein": "17.2",
+      "fat": "2.2",
+      "sugar": "0"
+    },
+    {
+      "name": "Morwa",
+      "calories": "48",
+      "protein": "1.4",
+      "fat": "0.4",
+      "sugar": "9.8"
+    },
+    {
+      "name": "Muesli",
+      "calories": "370",
+      "protein": "9.1",
+      "fat": "6.8",
+      "sugar": "68.1"
+    },
+    {
+      "name": "Musztarda",
+      "calories": "168",
+      "protein": "5.7",
+      "fat": "6.4",
+      "sugar": "22"
+    },
+    {
+      "name": "Napoleonka, ciastko",
+      "calories": "324",
+      "protein": "5",
+      "fat": "16",
+      "sugar": "39.8"
+    },
+    {
+      "name": "Napój Coca Cola",
+      "calories": "42",
+      "protein": "0",
+      "fat": "0",
+      "sugar": "10.4"
+    },
+    {
+      "name": "Napój Coca Cola light",
+      "calories": "0.24",
+      "protein": "0",
+      "fat": "0",
+      "sugar": "0"
+    },
+    {
+      "name": "Napój Kubuś Multiwitamina",
+      "calories": "48",
+      "protein": "0.3",
+      "fat": "0.1",
+      "sugar": "11.5"
+    },
+    {
+      "name": "Napój Mirinda",
+      "calories": "52",
+      "protein": "0",
+      "fat": "0",
+      "sugar": "12.9"
+    },
+    {
+      "name": "Napój Pepsi Cola",
+      "calories": "42",
+      "protein": "0",
+      "fat": "0",
+      "sugar": "10.4"
+    },
+    {
+      "name": "Napój Pepsi Cola light",
+      "calories": "0.24",
+      "protein": "0",
+      "fat": "0",
+      "sugar": "0"
+    },
+    {
+      "name": "Napój Red Bull",
+      "calories": "45",
+      "protein": "0",
+      "fat": "0",
+      "sugar": "11.3"
+    },
+    {
+      "name": "Napój Sprite",
+      "calories": "42",
+      "protein": "0",
+      "fat": "0",
+      "sugar": "10.5"
+    },
+    {
+      "name": "Nektar owocowy",
+      "calories": "63",
+      "protein": "0.2",
+      "fat": "0.4",
+      "sugar": "14.6"
+    },
+    {
+      "name": "Nektarynka",
+      "calories": "53",
+      "protein": "0.9",
+      "fat": "0.2",
+      "sugar": "11.8"
+    },
+    {
+      "name": "Nesquik, kakao, proszek",
+      "calories": "380",
+      "protein": "3.5",
+      "fat": "3",
+      "sugar": "84.3"
+    },
+    {
+      "name": "Nestle Corn Flakes, płatki kukurydziane",
+      "calories": "370",
+      "protein": "7.3",
+      "fat": "0.8",
+      "sugar": "83.3"
+    },
+    {
+      "name": "Nestle Lion, baton",
+      "calories": "491",
+      "protein": "7.4",
+      "fat": "22.7",
+      "sugar": "64.1"
+    },
+    {
+      "name": "Nogi wieprzowe",
+      "calories": "276",
+      "protein": "23",
+      "fat": "20.4",
+      "sugar": "0"
+    },
+    {
+      "name": "Nutella, krem czekoladowy",
+      "calories": "533",
+      "protein": "6.5",
+      "fat": "31",
+      "sugar": "57"
+    },
+    {
+      "name": "Ocet winny",
+      "calories": "20",
+      "protein": "0",
+      "fat": "0",
+      "sugar": "5"
+    },
+    {
+      "name": "Ogórek",
+      "calories": "15",
+      "protein": "0.7",
+      "fat": "0.1",
+      "sugar": "2.9"
+    },
+    {
+      "name": "Ogórek kiszony",
+      "calories": "12",
+      "protein": "0.7",
+      "fat": "0.2",
+      "sugar": "1.9"
+    },
+    {
+      "name": "Olej kukurydziany",
+      "calories": "900",
+      "protein": "0",
+      "fat": "100",
+      "sugar": "0"
+    },
+    {
+      "name": "Olej lniany",
+      "calories": "900",
+      "protein": "0",
+      "fat": "100",
+      "sugar": "0"
+    },
+    {
+      "name": "Olej rzepakowy",
+      "calories": "900",
+      "protein": "0",
+      "fat": "100",
+      "sugar": "0"
+    },
+    {
+      "name": "Olej słonecznikowy",
+      "calories": "900",
+      "protein": "0",
+      "fat": "100",
+      "sugar": "0"
+    },
+    {
+      "name": "Olej sojowy",
+      "calories": "900",
+      "protein": "0",
+      "fat": "100",
+      "sugar": "0"
+    },
+    {
+      "name": "Oliwa z oliwek",
+      "calories": "897",
+      "protein": "0",
+      "fat": "99.6",
+      "sugar": "0.2"
+    },
+    {
+      "name": "Oliwki",
+      "calories": "147",
+      "protein": "1.4",
+      "fat": "13.9",
+      "sugar": "4.1"
+    },
+    {
+      "name": "Orzechy arachidowe",
+      "calories": "595",
+      "protein": "25.7",
+      "fat": "46.1",
+      "sugar": "19.2"
+    },
+    {
+      "name": "Orzechy laskowe",
+      "calories": "695",
+      "protein": "14.4",
+      "fat": "65.9",
+      "sugar": "11"
+    },
+    {
+      "name": "Orzechy nerkowca",
+      "calories": "638",
+      "protein": "17",
+      "fat": "54",
+      "sugar": "24"
+    },
+    {
+      "name": "Orzechy pistacjowe",
+      "calories": "618",
+      "protein": "20.8",
+      "fat": "51.6",
+      "sugar": "17.5"
+    },
+    {
+      "name": "Orzechy włoskie",
+      "calories": "679",
+      "protein": "16",
+      "fat": "60.3",
+      "sugar": "18"
+    },
+    {
+      "name": "Orzeszki ziemne",
+      "calories": "634",
+      "protein": "26",
+      "fat": "53",
+      "sugar": "13.3"
+    },
+    {
+      "name": "Ostrygi",
+      "calories": "85",
+      "protein": "5",
+      "fat": "5",
+      "sugar": "5"
+    },
+    {
+      "name": "Otręby pszenne",
+      "calories": "183",
+      "protein": "16",
+      "fat": "4.6",
+      "sugar": "61.9"
+    },
+    {
+      "name": "Ozory cielęce",
+      "calories": "106",
+      "protein": "17.1",
+      "fat": "4.2",
+      "sugar": "0"
+    },
+    {
+      "name": "Ozory wieprzowe",
+      "calories": "166",
+      "protein": "16.5",
+      "fat": "11.1",
+      "sugar": "0"
+    },
+    {
+      "name": "Paluszki",
+      "calories": "384",
+      "protein": "9.9",
+      "fat": "4.9",
+      "sugar": "75.2"
+    },
+    {
+      "name": "Pani Domu, margaryna",
+      "calories": "360",
+      "protein": "0",
+      "fat": "40",
+      "sugar": "0"
+    },
+    {
+      "name": "Papaja",
+      "calories": "43",
+      "protein": "0.6",
+      "fat": "0.1",
+      "sugar": "9.8"
+    },
+    {
+      "name": "Papryka czerwona",
+      "calories": "35",
+      "protein": "1.2",
+      "fat": "0.3",
+      "sugar": "6.9"
+    },
+    {
+      "name": "Papryka konserwowa",
+      "calories": "37",
+      "protein": "0.8",
+      "fat": "1.5",
+      "sugar": "5"
+    },
+    {
+      "name": "Paprykarz Szczeciński",
+      "calories": "181",
+      "protein": "9.9",
+      "fat": "11.9",
+      "sugar": "8.6"
+    },
+    {
+      "name": "Parówki dla dzieci Morlinki",
+      "calories": "223",
+      "protein": "12.4",
+      "fat": "19.1",
+      "sugar": "0.4"
+    },
+    {
+      "name": "Parówki popularne",
+      "calories": "347",
+      "protein": "9.5",
+      "fat": "34.3",
+      "sugar": "0"
+    },
+    {
+      "name": "Parówki z kurczaka",
+      "calories": "262",
+      "protein": "10.8",
+      "fat": "22.4",
+      "sugar": "4.2"
+    },
+    {
+      "name": "Pasternak",
+      "calories": "80",
+      "protein": "1.2",
+      "fat": "0.3",
+      "sugar": "18"
+    },
+    {
+      "name": "Pasztet popularny",
+      "calories": "405",
+      "protein": "13.2",
+      "fat": "38.2",
+      "sugar": "2"
+    },
+    {
+      "name": "Pasztet z drobiu",
+      "calories": "270",
+      "protein": "9.6",
+      "fat": "23.8",
+      "sugar": "4.4"
+    },
+    {
+      "name": "Pączki",
+      "calories": "376",
+      "protein": "6",
+      "fat": "16",
+      "sugar": "52"
+    },
+    {
+      "name": "Pepsi Cola, napój",
+      "calories": "42",
+      "protein": "0",
+      "fat": "0",
+      "sugar": "10.4"
+    },
+    {
+      "name": "Pepsi Cola light, napój",
+      "calories": "0.24",
+      "protein": "0",
+      "fat": "0",
+      "sugar": "0"
+    },
+    {
+      "name": "Pestki dyni",
+      "calories": "596",
+      "protein": "29",
+      "fat": "46.7",
+      "sugar": "15"
+    },
+    {
+      "name": "Pędy bambusa",
+      "calories": "34",
+      "protein": "2.6",
+      "fat": "0.3",
+      "sugar": "5.2"
+    },
+    {
+      "name": "Pędy bambusa, konserwa, odsączone",
+      "calories": "23",
+      "protein": "1.7",
+      "fat": "0.4",
+      "sugar": "3.2"
+    },
+    {
+      "name": "Pieczarka suszona",
+      "calories": "331",
+      "protein": "19.1",
+      "fat": "2.1",
+      "sugar": "49.3"
+    },
+    {
+      "name": "Pieczarka świeża",
+      "calories": "24",
+      "protein": "2.6",
+      "fat": "0.4",
+      "sugar": "2.5"
+    },
+    {
+      "name": "Pieczywo chrupkie pszenne Wasa",
+      "calories": "360",
+      "protein": "12",
+      "fat": "2.2",
+      "sugar": "73"
+    },
+    {
+      "name": "Pierogi leniwe mrożone",
+      "calories": "157",
+      "protein": "7.3",
+      "fat": "0.8",
+      "sugar": "30.2"
+    },
+    {
+      "name": "Pierogi ruskie mrożone",
+      "calories": "215",
+      "protein": "7.2",
+      "fat": "3.8",
+      "sugar": "37.9"
+    },
+    {
+      "name": "Pierogi z kapustą i grzybami mrożone",
+      "calories": "209",
+      "protein": "5",
+      "fat": "5.7",
+      "sugar": "34.5"
+    },
+    {
+      "name": "Pierogi z mięsem mrożone",
+      "calories": "255",
+      "protein": "10.5",
+      "fat": "8.2",
+      "sugar": "34.8"
+    },
+    {
+      "name": "Pierogi z serem mrożone",
+      "calories": "198",
+      "protein": "10.9",
+      "fat": "1",
+      "sugar": "36.4"
+    },
+    {
+      "name": "Pierogi z truskawkami mrożone",
+      "calories": "194",
+      "protein": "4.3",
+      "fat": "0.8",
+      "sugar": "42.4"
+    },
+    {
+      "name": "Piernik czekoladowy",
+      "calories": "317",
+      "protein": "4.9",
+      "fat": "11.8",
+      "sugar": "74.3"
+    },
+    {
+      "name": "Piersi bez skóry indycze",
+      "calories": "109",
+      "protein": "21.3",
+      "fat": "2.6",
+      "sugar": "0"
+    },
+    {
+      "name": "Piersi bez skóry z kurczaka",
+      "calories": "100",
+      "protein": "21.5",
+      "fat": "1.3",
+      "sugar": "0"
+    },
+    {
+      "name": "Piersi ze skórą z kurczaka",
+      "calories": "155",
+      "protein": "19.3",
+      "fat": "8.6",
+      "sugar": "0"
+    },
+    {
+      "name": "Pietruszka korzeń",
+      "calories": "83",
+      "protein": "2.6",
+      "fat": "0.5",
+      "sugar": "17.1"
+    },
+    {
+      "name": "Pietruszka liście",
+      "calories": "60",
+      "protein": "3.7",
+      "fat": "1",
+      "sugar": "9"
+    },
+    {
+      "name": "Pikling",
+      "calories": "216",
+      "protein": "21.8",
+      "fat": "14.3",
+      "sugar": "0"
+    },
+    {
+      "name": "Piwo bezalkoholowe",
+      "calories": "27",
+      "protein": "0.2",
+      "fat": "0",
+      "sugar": "5.2"
+    },
+    {
+      "name": "Piwo ciemne pełne",
+      "calories": "42",
+      "protein": "0.4",
+      "fat": "0",
+      "sugar": "4.6"
+    },
+    {
+      "name": "Piwo jasne mocne",
+      "calories": "64",
+      "protein": "7",
+      "fat": "0",
+      "sugar": "5.4"
+    },
+    {
+      "name": "Piwo jasne pełne",
+      "calories": "49",
+      "protein": "0.5",
+      "fat": "0",
+      "sugar": "3.8"
+    },
+    {
+      "name": "Pizza z pieczarkami i cebulą",
+      "calories": "296",
+      "protein": "12",
+      "fat": "13.3",
+      "sugar": "32.1"
+    },
+    {
+      "name": "Pizza z szynką",
+      "calories": "223",
+      "protein": "9.8",
+      "fat": "2.5",
+      "sugar": "40.2"
+    },
+    {
+      "name": "Planta, tłuszcz roślinny",
+      "calories": "900",
+      "protein": "0",
+      "fat": "100",
+      "sugar": "0"
+    },
+    {
+      "name": "Płatki jęczmienne",
+      "calories": "389",
+      "protein": "9.8",
+      "fat": "3.6",
+      "sugar": "79.4"
+    },
+    {
+      "name": "Płatki kukurydziane",
+      "calories": "385",
+      "protein": "6.9",
+      "fat": "2.5",
+      "sugar": "83.6"
+    },
+    {
+      "name": "Płatki kukurydziane Nestle Corn Flakes",
+      "calories": "370",
+      "protein": "7.3",
+      "fat": "0.8",
+      "sugar": "83.3"
+    },
+    {
+      "name": "Płatki owsiane",
+      "calories": "390",
+      "protein": "11.9",
+      "fat": "7.2",
+      "sugar": "69.3"
+    },
+    {
+      "name": "Płatki pszenne",
+      "calories": "387",
+      "protein": "9",
+      "fat": "3",
+      "sugar": "81"
+    },
+    {
+      "name": "Płatki żytnie",
+      "calories": "385",
+      "protein": "6.4",
+      "fat": "3.2",
+      "sugar": "82.6"
+    },
+    {
+      "name": "Polędwica wołowa",
+      "calories": "112",
+      "protein": "20.1",
+      "fat": "3.5",
+      "sugar": "0"
+    },
+    {
+      "name": "Pomidor",
+      "calories": "29",
+      "protein": "0.9",
+      "fat": "0.5",
+      "sugar": "5.2"
+    },
+    {
+      "name": "Por",
+      "calories": "47",
+      "protein": "1.7",
+      "fat": "0.1",
+      "sugar": "9.9"
+    },
+    {
+      "name": "Pomarańcza",
+      "calories": "51",
+      "protein": "0.9",
+      "fat": "0.2",
+      "sugar": "11.3"
+    },
+    {
+      "name": "Popcorn bez tłuszczu",
+      "calories": "397",
+      "protein": "12",
+      "fat": "4.2",
+      "sugar": "77.9"
+    },
+    {
+      "name": "Popcorn z tłuszczem",
+      "calories": "518",
+      "protein": "9",
+      "fat": "28.1",
+      "sugar": "57.1"
+    },
+    {
+      "name": "Porzeczki białe",
+      "calories": "63",
+      "protein": "0.4",
+      "fat": "0.4",
+      "sugar": "14.5"
+    },
+    {
+      "name": "Porzeczki czarne",
+      "calories": "84",
+      "protein": "1.5",
+      "fat": "0.9",
+      "sugar": "17.4"
+    },
+    {
+      "name": "Porzeczki czerwone",
+      "calories": "64",
+      "protein": "1.3",
+      "fat": "0.4",
+      "sugar": "13.8"
+    },
+    {
+      "name": "Powidła śliwkowe",
+      "calories": "218",
+      "protein": "1",
+      "fat": "0.2",
+      "sugar": "53"
+    },
+    {
+      "name": "Poziomki",
+      "calories": "41",
+      "protein": "0.8",
+      "fat": "0.5",
+      "sugar": "8.3"
+    },
+    {
+      "name": "Precelki",
+      "calories": "385",
+      "protein": "9.1",
+      "fat": "3.5",
+      "sugar": "79.5"
+    },
+    {
+      "name": "Prince Polo, wafel",
+      "calories": "534",
+      "protein": "4.8",
+      "fat": "31.5",
+      "sugar": "57.5"
+    },
+    {
+      "name": "Princessa, wafel",
+      "calories": "562",
+      "protein": "4.1",
+      "fat": "34.6",
+      "sugar": "58.4"
+    },
+    {
+      "name": "Przyprawa do zup Maggi",
+      "calories": "17",
+      "protein": "2.7",
+      "fat": "0",
+      "sugar": "1.5"
+    },
+    {
+      "name": "Pstrąg świeży",
+      "calories": "96",
+      "protein": "19.2",
+      "fat": "2.1",
+      "sugar": "0"
+    },
+    {
+      "name": "Ptyś z bitą śmietaną, ciastko",
+      "calories": "352",
+      "protein": "5.4",
+      "fat": "25.2",
+      "sugar": "25.8"
+    },
+    {
+      "name": "Pyzy z mięsem mrożone",
+      "calories": "169",
+      "protein": "5.2",
+      "fat": "4.9",
+      "sugar": "26.2"
+    },
+    {
+      "name": "Pyzy ziemniaczane mrożone",
+      "calories": "140",
+      "protein": "1.7",
+      "fat": "0.5",
+      "sugar": "32.2"
+    },
+    {
+      "name": "Rabarabar",
+      "calories": "18",
+      "protein": "0.5",
+      "fat": "0.1",
+      "sugar": "3.8"
+    },
+    {
+      "name": "Raffaello, czekoladki",
+      "calories": "600",
+      "protein": "9.7",
+      "fat": "46.6",
+      "sugar": "35.4"
+    },
+    {
+      "name": "Rama Classic, margaryna",
+      "calories": "631",
+      "protein": "0",
+      "fat": "70",
+      "sugar": "0.2"
+    },
+    {
+      "name": "Red Bull, napój",
+      "calories": "45",
+      "protein": "0",
+      "fat": "0",
+      "sugar": "11.3"
+    },
+    {
+      "name": "Rodzynki",
+      "calories": "298",
+      "protein": "2.3",
+      "fat": "0.5",
+      "sugar": "71.2"
+    },
+    {
+      "name": "Rostbef wołowy",
+      "calories": "152",
+      "protein": "21.5",
+      "fat": "7.3",
+      "sugar": "0"
+    },
+    {
+      "name": "Rozbratel wołowy",
+      "calories": "158",
+      "protein": "16.7",
+      "fat": "10.1",
+      "sugar": "0"
+    },
+    {
+      "name": "Ryż biały",
+      "calories": "349",
+      "protein": "6.7",
+      "fat": "0.7",
+      "sugar": "78.9"
+    },
+    {
+      "name": "Ryż brązowy",
+      "calories": "353",
+      "protein": "7.1",
+      "fat": "1.9",
+      "sugar": "76.8"
+    },
+    {
+      "name": "Ryż dziki amerykański",
+      "calories": "351",
+      "protein": "13.8",
+      "fat": "0.4",
+      "sugar": "73"
+    },
+    {
+      "name": "Ryż preparowany",
+      "calories": "376",
+      "protein": "6.3",
+      "fat": "1.6",
+      "sugar": "84.1"
+    },
+    {
+      "name": "Rzeżucha",
+      "calories": "15",
+      "protein": "2.3",
+      "fat": "0.1",
+      "sugar": "1.3"
+    },
+    {
+      "name": "Rzodkiewka",
+      "calories": "21",
+      "protein": "0.8",
+      "fat": "0.4",
+      "sugar": "3.6"
+    },
+    {
+      "name": "Salceson czarny",
+      "calories": "340",
+      "protein": "12.6",
+      "fat": "32",
+      "sugar": "0.5"
+    },
+    {
+      "name": "Salceson włoski",
+      "calories": "322",
+      "protein": "14.6",
+      "fat": "29.3",
+      "sugar": "0"
+    },
+    {
+      "name": "Sałata",
+      "calories": "20",
+      "protein": "1.4",
+      "fat": "0.3",
+      "sugar": "2.9"
+    },
+    {
+      "name": "Sandacz świeży",
+      "calories": "80",
+      "protein": "18.3",
+      "fat": "0.3",
+      "sugar": "0.9"
+    },
+    {
+      "name": "Sardynki w oleju, konserwa",
+      "calories": "202",
+      "protein": "24",
+      "fat": "11.5",
+      "sugar": "0"
+    },
+    {
+      "name": "Sardynki w sosie pomidorowym, konserwa",
+      "calories": "163",
+      "protein": "17",
+      "fat": "9.9",
+      "sugar": "1.4"
+    },
+    {
+      "name": "Sarnina",
+      "calories": "102",
+      "protein": "20.8",
+      "fat": "1.9",
+      "sugar": "0.4"
+    },
+    {
+      "name": "Schab surowy wieprzowy",
+      "calories": "174",
+      "protein": "21",
+      "fat": "10",
+      "sugar": "0"
+    },
+    {
+      "name": "Schab wędzony",
+      "calories": "136",
+      "protein": "25",
+      "fat": "4",
+      "sugar": "0"
+    },
+    {
+      "name": "Seler korzeń",
+      "calories": "61",
+      "protein": "1.3",
+      "fat": "0.2",
+      "sugar": "13.6"
+    },
+    {
+      "name": "Ser Feta",
+      "calories": "216",
+      "protein": "17",
+      "fat": "16",
+      "sugar": "1"
+    },
+    {
+      "name": "Ser pleśniowy Brie pełnotłusty",
+      "calories": "293",
+      "protein": "18",
+      "fat": "24.5",
+      "sugar": "0"
+    },
+    {
+      "name": "Ser pleśniowy Rokpol pełnotłusty",
+      "calories": "354",
+      "protein": "22.6",
+      "fat": "29.3",
+      "sugar": "0"
+    },
+    {
+      "name": "Ser podpuszczkowy Brie pełnotłusty",
+      "calories": "332",
+      "protein": "19.8",
+      "fat": "28",
+      "sugar": "0.2"
+    },
+    {
+      "name": "Ser podpuszczkowy Camembert tłusty",
+      "calories": "263",
+      "protein": "19.3",
+      "fat": "19.8",
+      "sugar": "1.9"
+    },
+    {
+      "name": "Ser podpuszczkowy Cheddar pełnotłusty",
+      "calories": "382",
+      "protein": "27.1",
+      "fat": "29.3",
+      "sugar": "2.5"
+    },
+    {
+      "name": "Ser podpuszczkowy Ementaler pełnotłusty",
+      "calories": "383",
+      "protein": "28.8",
+      "fat": "29.7",
+      "sugar": "0.1"
+    },
+    {
+      "name": "Ser podpuszczkowy Ementaler tłusty",
+      "calories": "330",
+      "protein": "28.8",
+      "fat": "23.2",
+      "sugar": "1.5"
+    },
+    {
+      "name": "Ser podpuszczkowy Gouda tłusty",
+      "calories": "314",
+      "protein": "27.9",
+      "fat": "22",
+      "sugar": "1"
+    },
+    {
+      "name": "Ser podpuszczkowy Mozarella tłusty",
+      "calories": "224",
+      "protein": "20",
+      "fat": "16",
+      "sugar": "0"
+    },
+    {
+      "name": "Ser podpuszczkowy Myśliwski pełnotłusty",
+      "calories": "349",
+      "protein": "25.5",
+      "fat": "27.4",
+      "sugar": "0.1"
+    },
+    {
+      "name": "Ser podpuszczkowy Parmezan",
+      "calories": "408",
+      "protein": "35.1",
+      "fat": "29.7",
+      "sugar": "0.1"
+    },
+    {
+      "name": "Ser podpuszczkowy Salami pełnotłusty",
+      "calories": "354",
+      "protein": "25.2",
+      "fat": "28.1",
+      "sugar": "0.1"
+    },
+    {
+      "name": "Ser podpuszczkowy Salami tłusty",
+      "calories": "329",
+      "protein": "29.5",
+      "fat": "22.1",
+      "sugar": "3.1"
+    },
+    {
+      "name": "Ser podpuszczkowy Tylżycki pełnotłusty",
+      "calories": "356",
+      "protein": "26.1",
+      "fat": "27.9",
+      "sugar": "0.1"
+    },
+    {
+      "name": "Ser podpuszczkowy Tylżycki tłusty",
+      "calories": "327",
+      "protein": "27.8",
+      "fat": "23",
+      "sugar": "2.1"
+    },
+    {
+      "name": "Ser topiony tłusty",
+      "calories": "222",
+      "protein": "18",
+      "fat": "16",
+      "sugar": "1.6"
+    },
+    {
+      "name": "Ser twarogowy chudy",
+      "calories": "98",
+      "protein": "19.8",
+      "fat": "0.5",
+      "sugar": "3.5"
+    },
+    {
+      "name": "Ser twarogowy półtłusty",
+      "calories": "132",
+      "protein": "18.7",
+      "fat": "4.7",
+      "sugar": "3.7"
+    },
+    {
+      "name": "Ser twarogowy pełnotłusty",
+      "calories": "176",
+      "protein": "17.7",
+      "fat": "10.1",
+      "sugar": "3.5"
+    },
+    {
+      "name": "Serca wieprzowe",
+      "calories": "111",
+      "protein": "16.9",
+      "fat": "4.8",
+      "sugar": "0"
+    },
+    {
+      "name": "Serdelki drobiowe",
+      "calories": "239",
+      "protein": "13.9",
+      "fat": "19.5",
+      "sugar": "1.9"
+    },
+    {
+      "name": "Serek Fromage naturalny",
+      "calories": "384",
+      "protein": "10.2",
+      "fat": "37.1",
+      "sugar": "2.4"
+    },
+    {
+      "name": "Serek homogenizowany truskawkowy",
+      "calories": "167",
+      "protein": "15.3",
+      "fat": "3.9",
+      "sugar": "17.7"
+    },
+    {
+      "name": "Serek homogenizowany waniliowy",
+      "calories": "158",
+      "protein": "16.8",
+      "fat": "4.2",
+      "sugar": "13.3"
+    },
+    {
+      "name": "Serek twarogowy ziarnisty",
+      "calories": "101",
+      "protein": "12.3",
+      "fat": "4.3",
+      "sugar": "3.3"
+    },
+    {
+      "name": "Sernik",
+      "calories": "273",
+      "protein": "10",
+      "fat": "9",
+      "sugar": "38"
+    },
+    {
+      "name": "Sernik z rodzynkami, ciasto",
+      "calories": "342",
+      "protein": "14.6",
+      "fat": "13.9",
+      "sugar": "39.6"
+    },
+    {
+      "name": "Serwatka płynna",
+      "calories": "25",
+      "protein": "0.8",
+      "fat": "0.1",
+      "sugar": "5.1"
+    },
+    {
+      "name": "Sezamki",
+      "calories": "511",
+      "protein": "13.4",
+      "fat": "25.8",
+      "sugar": "56.2"
+    },
+    {
+      "name": "Skrobia kukurydziana",
+      "calories": "367",
+      "protein": "0.3",
+      "fat": "0.1",
+      "sugar": "91.3"
+    },
+    {
+      "name": "Skrzydło bez skóry indycze",
+      "calories": "169",
+      "protein": "16.5",
+      "fat": "11.4",
+      "sugar": "0"
+    },
+    {
+      "name": "Słonecznik ziarno",
+      "calories": "580",
+      "protein": "22.5",
+      "fat": "49",
+      "sugar": "12.3"
+    },
+    {
+      "name": "Słonina",
+      "calories": "811",
+      "protein": "2.4",
+      "fat": "89",
+      "sugar": "0"
+    },
+    {
+      "name": "Smalec",
+      "calories": "896",
+      "protein": "0",
+      "fat": "99.5",
+      "sugar": "0"
+    },
+    {
+      "name": "Snickers, baton",
+      "calories": "509",
+      "protein": "9.7",
+      "fat": "28.9",
+      "sugar": "52.6"
+    },
+    {
+      "name": "Soczewica, suche ziarno",
+      "calories": "347",
+      "protein": "25",
+      "fat": "1",
+      "sugar": "59.5"
+    },
+    {
+      "name": "Soja, suche ziarno",
+      "calories": "442",
+      "protein": "34.9",
+      "fat": "18.1",
+      "sugar": "34.8"
+    },
+    {
+      "name": "Sola świeża",
+      "calories": "83",
+      "protein": "17.5",
+      "fat": "1.4",
+      "sugar": "0"
+    },
+    {
+      "name": "Sok ananasowy",
+      "calories": "48",
+      "protein": "0.3",
+      "fat": "0.1",
+      "sugar": "11.4"
+    },
+    {
+      "name": "Sok grejfrutowy",
+      "calories": "35",
+      "protein": "0.6",
+      "fat": "0.2",
+      "sugar": "7.8"
+    },
+    {
+      "name": "Sok jabłkowy",
+      "calories": "45",
+      "protein": "0.4",
+      "fat": "0.4",
+      "sugar": "10"
+    },
+    {
+      "name": "Sok marchwiowy",
+      "calories": "48",
+      "protein": "0.4",
+      "fat": "0.1",
+      "sugar": "11.3"
+    },
+    {
+      "name": "Sok pomarańczowy",
+      "calories": "45",
+      "protein": "0.5",
+      "fat": "0.1",
+      "sugar": "10.5"
+    },
+    {
+      "name": "Sok pomidorowy",
+      "calories": "19",
+      "protein": "0.8",
+      "fat": "0.6",
+      "sugar": "2.6"
+    },
+    {
+      "name": "Sok z czarnej porzeczki",
+      "calories": "45",
+      "protein": "0.3",
+      "fat": "0.3",
+      "sugar": "10.2"
+    },
+    {
+      "name": "Sprite, napój",
+      "calories": "42",
+      "protein": "0",
+      "fat": "0",
+      "sugar": "10.5"
+    },
+    {
+      "name": "Syrop truskawkowy",
+      "calories": "262",
+      "protein": "0.2",
+      "fat": "0.1",
+      "sugar": "62"
+    },
+    {
+      "name": "Szampan półsłodki",
+      "calories": "97",
+      "protein": "0.2",
+      "fat": "0",
+      "sugar": "7"
+    },
+    {
+      "name": "Szampan półwytrawny",
+      "calories": "83",
+      "protein": "0.1",
+      "fat": "0",
+      "sugar": "3.4"
+    },
+    {
+      "name": "Szampan słodki",
+      "calories": "117",
+      "protein": "0.2",
+      "fat": "0",
+      "sugar": "12"
+    },
+    {
+      "name": "Szczaw",
+      "calories": "39",
+      "protein": "1.1",
+      "fat": "0.8",
+      "sugar": "3.9"
+    },
+    {
+      "name": "Szczupak świeży",
+      "calories": "81",
+      "protein": "18.4",
+      "fat": "0.8",
+      "sugar": "0"
+    },
+    {
+      "name": "Szczypiorek",
+      "calories": "39",
+      "protein": "4.1",
+      "fat": "0.8",
+      "sugar": "3.9"
+    },
+    {
+      "name": "Szparagi",
+      "calories": "24",
+      "protein": "1.9",
+      "fat": "0.2",
+      "sugar": "3.7"
+    },
+    {
+      "name": "Szpinak",
+      "calories": "26",
+      "protein": "2.6",
+      "fat": "0.4",
+      "sugar": "3"
+    },
+    {
+      "name": "Szponder wołowy",
+      "calories": "218",
+      "protein": "19.3",
+      "fat": "15.7",
+      "sugar": "0"
+    },
+    {
+      "name": "Szprot wędzony",
+      "calories": "243",
+      "protein": "19.3",
+      "fat": "18.3",
+      "sugar": "0"
+    },
+    {
+      "name": "Szynka surowa wieprzowa",
+      "calories": "264",
+      "protein": "18",
+      "fat": "21.3",
+      "sugar": "0"
+    },
+    {
+      "name": "Szynka wędzona gotowana",
+      "calories": "389",
+      "protein": "23",
+      "fat": "33",
+      "sugar": "0"
+    },
+    {
+      "name": "Śmietana 12% tłuszczu",
+      "calories": "134",
+      "protein": "2.7",
+      "fat": "12",
+      "sugar": "3.9"
+    },
+    {
+      "name": "Śmietana 18% tłuszczu",
+      "calories": "186",
+      "protein": "2.5",
+      "fat": "18",
+      "sugar": "3.6"
+    },
+    {
+      "name": "Śmietanka do kawy 9% tłuszczu",
+      "calories": "54",
+      "protein": "2.8",
+      "fat": "9",
+      "sugar": "4"
+    },
+    {
+      "name": "Śmietanka kremowa 30% tłuszczu",
+      "calories": "291",
+      "protein": "2.2",
+      "fat": "30",
+      "sugar": "3.1"
+    },
+    {
+      "name": "Śledź solony",
+      "calories": "218",
+      "protein": "19.8",
+      "fat": "15.4",
+      "sugar": "0"
+    },
+    {
+      "name": "Śledź świeży",
+      "calories": "162",
+      "protein": "16.3",
+      "fat": "10.7",
+      "sugar": "0"
+    },
+    {
+      "name": "Śledź w oleju, konserwa",
+      "calories": "343",
+      "protein": "19.7",
+      "fat": "29.4",
+      "sugar": "0"
+    },
+    {
+      "name": "Śledź w pomidorach, konserwa",
+      "calories": "177",
+      "protein": "13.7",
+      "fat": "12.8",
+      "sugar": "1.8"
+    },
+    {
+      "name": "Śliwki",
+      "calories": "70",
+      "protein": "1",
+      "fat": "0.3",
+      "sugar": "15.9"
+    },
+    {
+      "name": "Śliwki suszone",
+      "calories": "311",
+      "protein": "4.9",
+      "fat": "0.9",
+      "sugar": "70.8"
+    },
+    {
+      "name": "Teatralny, wafel",
+      "calories": "546",
+      "protein": "8",
+      "fat": "31",
+      "sugar": "58"
+    },
+    {
+      "name": "Tic Tac, drażetki",
+      "calories": "390",
+      "protein": "0",
+      "fat": "0",
+      "sugar": "97.5"
+    },
+    {
+      "name": "Tłuszcz roślinny Planta",
+      "calories": "900",
+      "protein": "0",
+      "fat": "100",
+      "sugar": "0"
+    },
+    {
+      "name": "Toffifee, czekoladka",
+      "calories": "535",
+      "protein": "6",
+      "fat": "31",
+      "sugar": "58"
+    },
+    {
+      "name": "Tran",
+      "calories": "900",
+      "protein": "0",
+      "fat": "100",
+      "sugar": "0"
+    },
+    {
+      "name": "Truskawki",
+      "calories": "36",
+      "protein": "0.7",
+      "fat": "0.5",
+      "sugar": "7.2"
+    },
+    {
+      "name": "Tuńczyk świeży",
+      "calories": "97",
+      "protein": "22",
+      "fat": "1",
+      "sugar": "0"
+    },
+    {
+      "name": "Tuńczyk w oleju, konserwa",
+      "calories": "189",
+      "protein": "27.1",
+      "fat": "9",
+      "sugar": "0"
+    },
+    {
+      "name": "Twix, baton",
+      "calories": "487",
+      "protein": "5.3",
+      "fat": "23.2",
+      "sugar": "64.2"
+    },
+    {
+      "name": "Udo bez skóry z kurczaka",
+      "calories": "125",
+      "protein": "17.8",
+      "fat": "6",
+      "sugar": "0"
+    },
+    {
+      "name": "Udo ze skórą z kurczaka",
+      "calories": "161",
+      "protein": "17.8",
+      "fat": "10",
+      "sugar": "0"
+    },
+    {
+      "name": "Udziec barani",
+      "calories": "234",
+      "protein": "18",
+      "fat": "18",
+      "sugar": "0"
+    },
+    {
+      "name": "Udziec cielęcy",
+      "calories": "108",
+      "protein": "19.9",
+      "fat": "3.1",
+      "sugar": "0"
+    },
+    {
+      "name": "Wafel Familijne",
+      "calories": "533",
+      "protein": "7.1",
+      "fat": "29.6",
+      "sugar": "59.5"
+    },
+    {
+      "name": "Wafel Grześki",
+      "calories": "550",
+      "protein": "8.5",
+      "fat": "34.5",
+      "sugar": "51.2"
+    },
+    {
+      "name": "Wafel Kinder Bueno",
+      "calories": "532",
+      "protein": "5.5",
+      "fat": "35.5",
+      "sugar": "47.6"
+    },
+    {
+      "name": "Wafel Prince Polo",
+      "calories": "534",
+      "protein": "4.8",
+      "fat": "31.5",
+      "sugar": "57.5"
+    },
+    {
+      "name": "Wafel Princessa",
+      "calories": "562",
+      "protein": "4.1",
+      "fat": "34.6",
+      "sugar": "58.4"
+    },
+    {
+      "name": "Wafel Teatralny",
+      "calories": "546",
+      "protein": "8",
+      "fat": "31",
+      "sugar": "58"
+    },
+    {
+      "name": "Wasa, pieczywo chrupkie pszenne",
+      "calories": "360",
+      "protein": "12",
+      "fat": "2.2",
+      "sugar": "73"
+    },
+    {
+      "name": "Wątroba drobiowa",
+      "calories": "136",
+      "protein": "19.1",
+      "fat": "6.3",
+      "sugar": "0.6"
+    },
+    {
+      "name": "Wątroba wieprzowa",
+      "calories": "129",
+      "protein": "19.7",
+      "fat": "4.8",
+      "sugar": "1.7"
+    },
+    {
+      "name": "Wątroba wołowa",
+      "calories": "124",
+      "protein": "20",
+      "fat": "3.1",
+      "sugar": "4"
+    },
+    {
+      "name": "Wermut, wino",
+      "calories": "104",
+      "protein": "0",
+      "fat": "0",
+      "sugar": "7.9"
+    },
+    {
+      "name": "Węgorz świeży",
+      "calories": "281",
+      "protein": "12.7",
+      "fat": "25.6",
+      "sugar": "0"
+    },
+    {
+      "name": "Węgorz wędzony",
+      "calories": "329",
+      "protein": "17.9",
+      "fat": "28.6",
+      "sugar": "0"
+    },
+    {
+      "name": "Whisky",
+      "calories": "225",
+      "protein": "0",
+      "fat": "0",
+      "sugar": "0"
+    },
+    {
+      "name": "Wieprzowina, boczek",
+      "calories": "517",
+      "protein": "10.1",
+      "fat": "53",
+      "sugar": "0"
+    },
+    {
+      "name": "Wieprzowina, golonka ze skórą",
+      "calories": "297",
+      "protein": "18.6",
+      "fat": "24.7",
+      "sugar": "0"
+    },
+    {
+      "name": "Wieprzowina, karkówka",
+      "calories": "270",
+      "protein": "16.1",
+      "fat": "22.8",
+      "sugar": "0"
+    },
+    {
+      "name": "Wieprzowina, łopatka",
+      "calories": "259",
+      "protein": "16",
+      "fat": "21.7",
+      "sugar": "0"
+    },
+    {
+      "name": "Wieprzowina, mięso bez kości, średnio",
+      "calories": "264",
+      "protein": "18",
+      "fat": "21.3",
+      "sugar": "0"
+    },
+    {
+      "name": "Wieprzowina, mięso z kością, średnio",
+      "calories": "329",
+      "protein": "15.4",
+      "fat": "29.7",
+      "sugar": "0"
+    },
+    {
+      "name": "Wieprzowina, schab surowy",
+      "calories": "174",
+      "protein": "21",
+      "fat": "10",
+      "sugar": "0"
+    },
+    {
+      "name": "Wieprzowina, szynka surowa",
+      "calories": "264",
+      "protein": "18",
+      "fat": "21.3",
+      "sugar": "0"
+    },
+    {
+      "name": "Wieprzowina, żeberka",
+      "calories": "324",
+      "protein": "15.2",
+      "fat": "29.3",
+      "sugar": "0"
+    },
+    {
+      "name": "Wino białe półsłodkie",
+      "calories": "92",
+      "protein": "0",
+      "fat": "0",
+      "sugar": "4.4"
+    },
+    {
+      "name": "Wino białe półwytrawne",
+      "calories": "78",
+      "protein": "0",
+      "fat": "0",
+      "sugar": "3.7"
+    },
+    {
+      "name": "Wino białe wytrawne",
+      "calories": "73",
+      "protein": "0",
+      "fat": "0",
+      "sugar": "2.4"
+    },
+    {
+      "name": "Wino czerwone półsłodkie",
+      "calories": "96",
+      "protein": "0",
+      "fat": "0",
+      "sugar": "5.5"
+    },
+    {
+      "name": "Wino czerwone słodkie",
+      "calories": "106",
+      "protein": "0.1",
+      "fat": "0",
+      "sugar": "8.2"
+    },
+    {
+      "name": "Wino czerwone wytrawne",
+      "calories": "75",
+      "protein": "0",
+      "fat": "0",
+      "sugar": "3"
+    },
+    {
+      "name": "Winogrona",
+      "calories": "74",
+      "protein": "0.5",
+      "fat": "0.2",
+      "sugar": "17.6"
+    },
+    {
+      "name": "Wiórki kokosowe",
+      "calories": "606",
+      "protein": "5.6",
+      "fat": "62",
+      "sugar": "6.4"
+    },
+    {
+      "name": "Wiśnie",
+      "calories": "67",
+      "protein": "1.2",
+      "fat": "0.4",
+      "sugar": "14.6"
+    },
+    {
+      "name": "Wołowina, mięso bez kości, średnio",
+      "calories": "116",
+      "protein": "20.9",
+      "fat": "3.6",
+      "sugar": "0"
+    },
+    {
+      "name": "Wołowina, mięso z kością, średnio",
+      "calories": "149",
+      "protein": "18.6",
+      "fat": "8.3",
+      "sugar": "0"
+    },
+    {
+      "name": "Wołowina, polędwica",
+      "calories": "112",
+      "protein": "20.1",
+      "fat": "3.5",
+      "sugar": "0"
+    },
+    {
+      "name": "Wołowina, pieczeń",
+      "calories": "116",
+      "protein": "20.9",
+      "fat": "3.6",
+      "sugar": "0"
+    },
+    {
+      "name": "Wołowina, rostbef",
+      "calories": "152",
+      "protein": "21.5",
+      "fat": "7.3",
+      "sugar": "0"
+    },
+    {
+      "name": "Wołowina, rozbratel",
+      "calories": "158",
+      "protein": "16.7",
+      "fat": "10.1",
+      "sugar": "0"
+    },
+    {
+      "name": "Wołowina, szponder",
+      "calories": "218",
+      "protein": "19.3",
+      "fat": "15.7",
+      "sugar": "0"
+    },
+    {
+      "name": "Wódka, średnio",
+      "calories": "225",
+      "protein": "0",
+      "fat": "0",
+      "sugar": "0"
+    },
+    {
+      "name": "Zarodki pszenne",
+      "calories": "377",
+      "protein": "27.5",
+      "fat": "9.4",
+      "sugar": "45.5"
+    },
+    {
+      "name": "Ziemniaki",
+      "calories": "87",
+      "protein": "1.7",
+      "fat": "0.1",
+      "sugar": "19.9"
+    },
+    {
+      "name": "Żeberka wieprzowe",
+      "calories": "324",
+      "protein": "15.2",
+      "fat": "29.3",
+      "sugar": "0"
+    },
+    {
+      "name": "Żółtko jaja kurzego",
+      "calories": "355",
+      "protein": "16.3",
+      "fat": "31.9",
+      "sugar": "0.7"
+    },
+    {
+      "name": "Żurawiny",
+      "calories": "51",
+      "protein": "0.4",
+      "fat": "0.1",
+      "sugar": "12.2"
+    }
+  ]
