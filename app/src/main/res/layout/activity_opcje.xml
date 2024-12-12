@@ -120,7 +120,8 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Oblicz" />
+                    android:text="Oblicz"
+                    android:textColor="@color/white"/>
 
                 <Button
                     android:id="@+id/wyczysc"
@@ -128,7 +129,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="Wyczyść"
-                    />
+                    android:textColor="@color/white"/>
             </LinearLayout>
 
             <!-- Wynik -->
