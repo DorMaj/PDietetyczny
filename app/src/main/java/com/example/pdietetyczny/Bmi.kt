@@ -14,7 +14,6 @@ import androidx.core.content.ContextCompat
 import com.example.pdietetyczny.databinding.ActivityBmiBinding
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
-@Suppress("DEPRECATION")
 class Bmi : AppCompatActivity() {
     private lateinit var binding: ActivityBmiBinding
     private lateinit var bmiwynik: TextView
