@@ -38,12 +38,20 @@ class MainActivity : AppCompatActivity() {
                 R.id.bmi -> {
                     startActivity(Intent(this, Bmi::class.java))
                     overridePendingTransition(0, 0)
+                    finish()
                     true
                 }
 
                 R.id.opcje -> {
                     startActivity(Intent(this, Opcje::class.java))
                     overridePendingTransition(0, 0)
+                    finish()
+                    true
+                }
+                R.id.jadlospis2 -> {
+                    startActivity(Intent(this, Jadlospis::class.java))
+                    overridePendingTransition(0, 0)
+                    finish()
                     true
                 }
 

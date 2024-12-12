@@ -1,7 +1,6 @@
 package com.example.pdietetyczny
 
 import android.content.Intent
-import android.content.Intent.FLAG_ACTIVITY_NO_ANIMATION
 import android.os.Bundle
 import android.widget.ArrayAdapter
 import android.widget.Button
@@ -9,7 +8,6 @@ import android.widget.EditText
 import android.widget.RadioGroup
 import android.widget.Spinner
 import android.widget.TextView
-import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import com.example.pdietetyczny.databinding.ActivityOpcjeBinding
 import com.google.android.material.bottomnavigation.BottomNavigationView
@@ -35,6 +33,12 @@ class Opcje : AppCompatActivity() {
                 R.id.opcje -> true
                 R.id.bmi -> {
                     startActivity(Intent(this, Bmi::class.java))
+                    overridePendingTransition(0, 0)
+                    finish()
+                    true
+                }
+                R.id.jadlospis2 -> {
+                    startActivity(Intent(this, Jadlospis::class.java))
                     overridePendingTransition(0, 0)
                     finish()
                     true

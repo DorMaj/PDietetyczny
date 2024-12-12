@@ -13,4 +13,9 @@
         android:id="@+id/opcje"
         android:icon="@drawable/info"
         />
+    <item android:title="@string/opcje"
+        android:id="@+id/jadlospis2"
+        android:icon="@drawable/foodlist"
+        />
+
 </menu>
