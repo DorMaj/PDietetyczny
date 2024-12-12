@@ -14,7 +14,7 @@ import androidx.appcompat.app.AppCompatActivity
 import com.example.pdietetyczny.databinding.ActivityOpcjeBinding
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
-@Suppress("DEPRECATION")
+
 class Opcje : AppCompatActivity() {
     private lateinit var binding: ActivityOpcjeBinding
     override fun onCreate(savedInstanceState: Bundle?) {

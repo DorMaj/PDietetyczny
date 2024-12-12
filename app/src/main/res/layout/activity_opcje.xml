@@ -136,7 +136,7 @@
                 style="@style/main"
                 android:textSize="15dp"
                 android:id="@+id/wynik"
-                android:layout_marginTop="16dp"
+                android:layout_marginTop="18dp"
                 android:text="Niska aktywność: 15-30 minut wysiłku fizycznego.\nŚrednia aktywnosc: 45-120 minut aktywnosci fizycznej.\nWysoka aktywnosc: Powyżej 2 godzin aktywnosci fizycznej."
  />
         </LinearLayout>
