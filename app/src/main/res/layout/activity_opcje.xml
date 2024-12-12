@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5D8C4E"
+    tools:context=".Opcje">
+
+    <FrameLayout
+        android:id="@+id/frame_layout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp">
+
+            <TextView
+                style="@style/main"
+                android:text="Kalkulator calorii"
+                android:layout_gravity="center_horizontal"
+                android:paddingBottom="10dp"
+                android:textStyle="bold"/>
+            <!-- Wiek -->
+            <TextView
+                style="@style/main"
+                android:text="Wiek"/>
+
+            <EditText
+                android:id="@+id/wiek"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Podaj swój wiek"
+                android:inputType="number"
+                android:textColor="@color/white"/>
+
+            <!-- Płeć -->
+            <TextView
+                style="@style/main"
+                android:layout_marginTop="16dp"
+                android:text="Płeć" />
+
+            <RadioGroup
+                android:id="@+id/radioGroupGender"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/radioMale"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mężczyzna"
+                    android:checked="true" />
+
+                <RadioButton
+                    android:id="@+id/radioFemale"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Kobieta" />
+            </RadioGroup>
+
+            <!-- Wzrost -->
+            <TextView
+                style="@style/main"
+                android:layout_marginTop="16dp"
+                android:text="Wzrost (cm)" />
+
+            <EditText
+                android:id="@+id/wzrost"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Podaj swój wzrost w centymetrach"
+                android:inputType="numberDecimal"
+                android:textColor="@color/white"/>
+
+            <!-- Waga -->
+            <TextView
+                style="@style/main"
+                android:layout_marginTop="16dp"
+                android:text="Waga (kg)" />
+
+            <EditText
+                android:id="@+id/waga"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Podaj swoją wagę w kilogramach"
+                android:inputType="numberDecimal"
+                android:textColor="@color/white"/>
+
+            <!-- Wybór aktywnosci -->
+            <TextView
+                style="@style/main"
+                android:layout_marginTop="16dp"
+                android:text="Aktywność" />
+
+            <Spinner
+                android:id="@+id/aktywnosc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:tooltipText="Poziom aktywnosci"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/oblicz"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Oblicz" />
+
+                <Button
+                    android:id="@+id/wyczysc"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Wyczyść"
+                    />
+            </LinearLayout>
+
+            <!-- Wynik -->
+            <TextView
+                style="@style/main"
+                android:textSize="15dp"
+                android:id="@+id/wynik"
+                android:layout_marginTop="16dp"
+                android:text="Niska aktywność: 15-30 minut wysiłku fizycznego.\nŚrednia aktywnosc: 45-120 minut aktywnosci fizycznej.\nWysoka aktywnosc: Powyżej 2 godzin aktywnosci fizycznej."
+ />
+        </LinearLayout>
+    </FrameLayout>
+
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/bottom_nav">
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+</androidx.constraintlayout.widget.ConstraintLayout>

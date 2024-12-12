@@ -1,20 +1,49 @@
 package com.example.pdietetyczny
 
+import android.content.Intent
 import android.os.Bundle
-import androidx.activity.enableEdgeToEdge
+import android.util.Log
+import android.view.MenuItem
+import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
+import androidx.fragment.app.Fragment
+import com.example.pdietetyczny.R.layout.activity_main
+import com.example.pdietetyczny.databinding.ActivityMainBinding
+import com.google.android.material.bottomnavigation.BottomNavigationView
 
+@Suppress("DEPRECATION")
 class MainActivity : AppCompatActivity() {
+    private lateinit var binding: ActivityMainBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        enableEdgeToEdge()
-        setContentView(R.layout.activity_main)
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
-            val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
-            insets
+        binding = ActivityMainBinding.inflate(layoutInflater)
+        setContentView(activity_main)
+
+        val bottomNavigationView: BottomNavigationView = findViewById(R.id.bottomNavigationView)
+
+        bottomNavigationView.setOnItemSelectedListener { item ->
+            if (item.itemId == bottomNavigationView.selectedItemId) {
+                return@setOnItemSelectedListener false
+            }
+
+            when (item.itemId) {
+
+                R.id.bmi -> {
+                    startActivity(Intent(this, Bmi::class.java))
+                    overridePendingTransition(0, 0)
+                    true
+                }
+
+                R.id.opcje -> {
+                    startActivity(Intent(this, Opcje::class.java))
+                    overridePendingTransition(0, 0)
+                    true
+                }
+
+                else -> false
+            }
         }
+
+        //OnCreate (od tąd można zacząć pisać kod)
     }
 }

@@ -1,4 +1,13 @@
 <resources>
     <string name="app_name">PDietetyczny</string>
     <string name="button">Button</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="prze_lij_dane">Prześlij dane</string>
+    <string name="info">info</string>
+    <string name="calc">calc</string>
+    <string name="home">home</string>
+    <string name="start" />
+    <string name="bmi" />
+    <string name="opcje" />
 </resources>
