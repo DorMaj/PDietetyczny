@@ -39,6 +39,10 @@ android {
 }
 
 dependencies {
+    implementation(libs.androidx.navigation.fragment.ktx)
+    implementation(libs.androidx.navigation.ui.ktx)
+    implementation(libs.androidx.lifecycle.livedata.ktx)
+    implementation(libs.androidx.lifecycle.viewmodel.ktx)
     val activity_version = "1.8.1"
     implementation("androidx.activity:activity-ktx:$activity_version")
     implementation(libs.androidx.core.ktx)

@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#5D8C4E"
+    android:background="#46865B"
     tools:context=".Opcje">
 
     <FrameLayout
@@ -25,7 +25,7 @@
 
             <TextView
                 style="@style/main"
-                android:text="Kalkulator calorii"
+                android:text="Kalkulator kalorii"
                 android:layout_gravity="center_horizontal"
                 android:paddingBottom="10dp"
                 android:textStyle="bold"/>

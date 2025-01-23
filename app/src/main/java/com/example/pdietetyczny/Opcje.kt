@@ -37,6 +37,12 @@ class Opcje : AppCompatActivity() {
                     finish()
                     true
                 }
+                R.id.jadlospis2 -> {
+                    startActivity(Intent(this, Jadlospis::class.java))
+                    overridePendingTransition(0, 0)
+                    finish()
+                    true
+                }
                 else -> false
             }
         }
