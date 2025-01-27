@@ -8,25 +8,42 @@
     tools:context=".Jadlospis"
     android:background="#5D8C4E">
     <LinearLayout
-        android:id="@+id/frame_layout"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:gravity="center">
+        android:gravity="center"
+        android:padding="16dp"
+        tools:ignore="MissingConstraints">
 
+        <!-- Etykieta informacyjna -->
         <TextView
+            android:id="@+id/water_status"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Jadlospis"
-            android:textColor="@color/white"
-            android:textStyle="bold"
-            android:textSize="25sp"
-            android:paddingBottom="30dp"/>
+            android:text="Wypiłeś 0 / 1000 ml"
+            android:textSize="18sp"
+            android:layout_marginBottom="16dp"
+            android:textColor="@android:color/black" />
 
+        <!-- Pasek postępu -->
+        <ProgressBar
+            android:id="@+id/water_progress"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:progress="0"
+            android:max="1000"
+            android:progressDrawable="@drawable/progress_bar"
+
+            android:layout_marginBottom="16dp" />
+
+        <!-- Przycisk -->
+        <Button
+            android:id="@+id/add_water_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dodaj 200 ml" />
     </LinearLayout>
 
 
