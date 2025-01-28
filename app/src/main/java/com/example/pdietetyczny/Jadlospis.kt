@@ -10,6 +10,7 @@ import com.example.pdietetyczny.models.FoodItem
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
 import com.example.pdietetyczny.databinding.ActivityJadlospis2Binding
+import android.content.Intent
 
 class Jadlospis : AppCompatActivity() {
 
@@ -37,6 +38,37 @@ class Jadlospis : AppCompatActivity() {
         binding = ActivityJadlospis2Binding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        // Ustawienie wybranego elementu w dolnym menu
+        binding.bottomNavigationView.selectedItemId = R.id.jadlospis2
+
+        // Obsługa dolnego menu
+        binding.bottomNavigationView.setOnItemSelectedListener { item ->
+            when (item.itemId) {
+                R.id.start -> {
+                    startActivity(Intent(this, MainActivity::class.java))
+                    overridePendingTransition(0, 0)
+                    finish()
+                    true
+                }
+
+                R.id.opcje -> {
+                    startActivity(Intent(this, Opcje::class.java))
+                    overridePendingTransition(0, 0)
+                    finish()
+                    true
+                }
+
+                R.id.bmi -> {
+                    startActivity(Intent(this, Bmi::class.java))
+                    overridePendingTransition(0, 0)
+                    finish()
+                    true
+                }
+
+                else -> false
+            }
+        }
+
         // Odbierz dane z Intentu
         val json = intent.getStringExtra("FOOD_LIST")
         if (json != null) {
@@ -53,8 +85,6 @@ class Jadlospis : AppCompatActivity() {
 
         // Inicjalizacja progress bara wody
         updateWaterProgressBar()
-
-        // Inicjalizacja RecyclerView
     }
 
     // Funkcja przypisująca kliknięcia do przycisków
@@ -227,5 +257,8 @@ class Jadlospis : AppCompatActivity() {
         binding.waterStatus.text = "$waterIntake / $maxWaterIntake ml"
     }
 
-
+    // Funkcja obsługująca przycisk wstecz
+    override fun onBackPressed() {
+        super.onBackPressed() // Zapewnia, że aplikacja wróci do poprzedniej aktywności
+    }
 }
