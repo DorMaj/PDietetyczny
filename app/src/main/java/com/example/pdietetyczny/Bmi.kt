@@ -44,7 +44,7 @@ class Bmi : AppCompatActivity() {
                     true
                 }
                 R.id.jadlospis2 -> {
-                    startActivity(Intent(this, Jadlospis::class.java))
+                    startActivity(Intent(this, Jadlospis::class.java)) // Zmieniamy tutaj na Jadlospis
                     overridePendingTransition(0, 0)
                     finish()
                     true
@@ -118,4 +118,3 @@ class Bmi : AppCompatActivity() {
         }
     }
 }
-

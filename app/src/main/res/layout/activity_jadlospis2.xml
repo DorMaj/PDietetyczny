@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
@@ -7,45 +8,245 @@
     android:layout_height="match_parent"
     tools:context=".Jadlospis"
     android:background="#46865B">
+
     <LinearLayout
-        xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:gravity="center"
-        android:padding="16dp"
-        tools:ignore="MissingConstraints">
+        android:padding="16dp">
 
-        <!-- Etykieta informacyjna -->
+        <TextView
+            android:id="@+id/meal_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="@string/posi_ki"
+            android:layout_gravity="left"
+            android:textColor="@android:color/white"
+            android:textSize="32sp" />
+
+        <!-- Śniadanie -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="8dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/niadanie"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/add_sniadanie_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/dodaj"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
+        <!-- Drugie śniadanie -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="8dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/drugie_niadanie"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/add_drugie_sniadanie_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/dodaj"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
+        <!-- Obiad -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="8dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/obiad"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/add_obiad_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/dodaj"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
+        <!-- Deser -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="8dp">
+
+            <TextView
+                android:id="@+id/deserText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/deser"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/add_deser_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/dodaj"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
+        <!-- Kolacja -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="8dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/kolacja"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/add_kolacja_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/dodaj"
+                android:textColor="@android:color/white"
+                android:layout_marginBottom="8dp"/>
+        </LinearLayout>
+
+        <!-- Sekcja wody -->
         <TextView
             android:id="@+id/water_status"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Wypiłeś 0 / 1000 ml"
-            android:textSize="18sp"
             android:layout_marginBottom="16dp"
-            android:textColor="@android:color/black" />
+            android:text="@string/wypi_e_0_1000_ml"
+            android:textColor="@android:color/black"
+            android:layout_gravity="center"
+            android:textSize="18sp" />
 
-        <!-- Pasek postępu -->
         <ProgressBar
             android:id="@+id/water_progress"
             style="?android:attr/progressBarStyleHorizontal"
             android:layout_width="match_parent"
             android:layout_height="40dp"
+            android:layout_marginBottom="16dp"
+            android:max="100"
             android:progress="0"
-            android:max="1000"
-            android:progressDrawable="@drawable/progress_bar"
+            android:progressDrawable="@drawable/progress_bar" />
 
-            android:layout_marginBottom="16dp" />
-
-        <!-- Przycisk -->
         <Button
             android:id="@+id/add_water_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Dodaj 200 ml" />
-    </LinearLayout>
+            android:layout_gravity="center"
+            android:text="@string/dodaj_200_ml" />
 
+        <!-- Trzy ProgressBary -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Białka"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+        <ProgressBar
+            android:id="@+id/protein_progress"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="8dp"
+            android:max="100"
+            android:progress="0"
+            android:progressDrawable="@drawable/progress_bar" />
+
+        <!-- Węglowodany -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Węglowodany"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+        <ProgressBar
+            android:id="@+id/carbs_progress"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="8dp"
+            android:max="100"
+            android:progress="0"
+            android:progressDrawable="@drawable/progress_bar" />
+
+        <!-- Tłuszcze -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tłuszcze"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+        <ProgressBar
+            android:id="@+id/fat_progress"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:max="100"
+            android:progress="0"
+            android:progressDrawable="@drawable/progress_bar" />
+
+        <!-- Kalorie -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kalorie"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+        <ProgressBar
+            android:id="@+id/kalorie_progress"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:max="100"
+            android:progress="0"
+            android:progressDrawable="@drawable/progress_bar" />
+
+        <!-- RecyclerView i SearchView do wyboru posiłków -->
+        <androidx.appcompat.widget.SearchView
+            android:id="@+id/searchView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:queryHint="Szukaj posiłku"
+            android:visibility="gone"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/product_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="16dp"
+            android:visibility="gone" />
+        <!-- Bottom Navigation -->
+    </LinearLayout>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottomNavigationView"
@@ -54,7 +255,5 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:menu="@menu/bottom_nav">
-
-    </com.google.android.material.bottomnavigation.BottomNavigationView>
+        app:menu="@menu/bottom_nav" />
 </androidx.constraintlayout.widget.ConstraintLayout>

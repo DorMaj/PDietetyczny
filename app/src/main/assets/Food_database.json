@@ -2,37 +2,37 @@
     {
       "name": "Actimel, mleko jogurtowe",
       "calories": "88",
-      "protein": "2.7",
-      "fat": "1.5",
+      "protein": "2",
+      "fat": "2",
       "sugar": "16"
     },
     {
       "name": "Advokat, likier",
       "calories": "280",
-      "protein": "4.4",
+      "protein": "4",
       "fat": "6",
-      "sugar": "28.4"
+      "sugar": "28"
     },
     {
       "name": "Agrest",
       "calories": "60",
-      "protein": "1.2",
-      "fat": "0.9",
-      "sugar": "11.8"
+      "protein": "1",
+      "fat": "1",
+      "sugar": "12"
     },
     {
       "name": "Ananas",
       "calories": "33",
-      "protein": "0.2",
+      "protein": "0",
       "fat": "0",
-      "sugar": "7.8"
+      "sugar": "8"
     },
     {
       "name": "Arbuz",
       "calories": "15",
-      "protein": "0.3",
-      "fat": "0.1",
-      "sugar": "3.2"
+      "protein": "0",
+      "fat": "0",
+      "sugar": "3"
     },
     {
       "name": "Awokado",
@@ -44,21 +44,21 @@
     {
       "name": "Baleron gotowany",
       "calories": "246",
-      "protein": "15.1",
-      "fat": "20.2",
-      "sugar": "0.9"
+      "protein": "15",
+      "fat": "20",
+      "sugar": "1"
     },
     {
       "name": "Banan",
       "calories": "74",
-      "protein": "0.9",
-      "fat": "0.3",
+      "protein": "1",
+      "fat": "3",
       "sugar": "17"
     },
     {
       "name": "Baranina, łopatka",
       "calories": "287",
-      "protein": "15.6",
+      "protein": "15",
       "fat": "25",
       "sugar": "0"
     },
@@ -72,8 +72,8 @@
     {
       "name": "Baranina, mięso z kością",
       "calories": "238",
-      "protein": "16.4",
-      "fat": "26.4",
+      "protein": "16",
+      "fat": "26",
       "sugar": "0"
     },
     {
@@ -86,9 +86,9 @@
     {
       "name": "Baton Bounty",
       "calories": "470",
-      "protein": "4.2",
-      "fat": "25.2",
-      "sugar": "56.7"
+      "protein": "4",
+      "fat": "25",
+      "sugar": "57"
     },
     {
       "name": "Baton Knoppers",
@@ -100,44 +100,44 @@
     {
       "name": "Baton Mars",
       "calories": "454",
-      "protein": "3.6",
-      "fat": "18.2",
-      "sugar": "68.9"
+      "protein": "4",
+      "fat": "18",
+      "sugar": "69"
     },
     {
       "name": "Baton Milky Way",
       "calories": "447",
-      "protein": "3.6",
-      "fat": "16.2",
-      "sugar": "71.8"
+      "protein": "4",
+      "fat": "16",
+      "sugar": "72"
     },
     {
       "name": "Baton Nestle Lion",
       "calories": "491",
-      "protein": "7.4",
-      "fat": "22.7",
-      "sugar": "64.1"
+      "protein": "7",
+      "fat": "23",
+      "sugar": "64"
     },
     {
       "name": "Baton Snickers",
       "calories": "509",
-      "protein": "9.7",
-      "fat": "28.9",
-      "sugar": "52.6"
+      "protein": "9",
+      "fat": "29",
+      "sugar": "53"
     },
     {
       "name": "Baton Twix",
       "calories": "487",
-      "protein": "5.3",
-      "fat": "23.2",
-      "sugar": "64.2"
+      "protein": "5",
+      "fat": "23",
+      "sugar": "64"
     },
     {
       "name": "Bażant tuszka",
       "calories": "108",
-      "protein": "22.3",
-      "fat": "1.9",
-      "sugar": "0.5"
+      "protein": "22",
+      "fat": "2",
+      "sugar": "1"
     },
     {
       "name": "Benecol, margaryna",
@@ -149,44 +149,44 @@
     {
       "name": "Białko jaja kurzego",
       "calories": "46",
-      "protein": "10.8",
+      "protein": "11",
       "fat": "0",
-      "sugar": "0.8"
+      "sugar": "1"
     },
     {
       "name": "Bigos",
       "calories": "126",
-      "protein": "5.6",
-      "fat": "9.8",
-      "sugar": "3.8"
+      "protein": "6",
+      "fat": "10",
+      "sugar": "4"
     },
     {
       "name": "Biszkopty, ciastka",
       "calories": "400",
-      "protein": "9.3",
-      "fat": "7.5",
-      "sugar": "73.8"
+      "protein": "9",
+      "fat": "7",
+      "sugar": "74"
     },
     {
       "name": "Bobo Frut jabłkowy",
       "calories": "42",
-      "protein": "0.1",
+      "protein": "0",
       "fat": "0",
-      "sugar": "10.5"
+      "sugar": "11"
     },
     {
       "name": "Boczek wieprzowy",
       "calories": "517",
-      "protein": "10.1",
+      "protein": "10",
       "fat": "53",
       "sugar": "0"
     },
     {
       "name": "Boćwina",
       "calories": "35",
-      "protein": "2.1",
-      "fat": "0.5",
-      "sugar": "5.5"
+      "protein": "2",
+      "fat": "1",
+      "sugar": "6"
     },
     {
       "name": "Borowik suszony",
@@ -198,15 +198,15 @@
     {
       "name": "Borowik świeży",
       "calories": "36",
-      "protein": "5.4",
-      "fat": "0.4",
-      "sugar": "2.7"
+      "protein": "5",
+      "fat": "0",
+      "sugar": "3"
     },
     {
       "name": "Bób",
       "calories": "88",
-      "protein": "7.1",
-      "fat": "0.4",
+      "protein": "7",
+      "fat": "0",
       "sugar": "14"
     },
     {
@@ -214,7 +214,7 @@
       "calories": "390",
       "protein": "0",
       "fat": "0",
-      "sugar": "96.6"
+      "sugar": "97"
     },
     {
       "name": "Brandy",
@@ -226,9 +226,9 @@
     {
       "name": "Brokuły",
       "calories": "37",
-      "protein": "3.3",
-      "fat": "0.2",
-      "sugar": "5.5"
+      "protein": "3",
+      "fat": "0",
+      "sugar": "6"
     },
     {
       "name": "Brukselka",
@@ -240,99 +240,99 @@
     {
       "name": "Brzoskwinia",
       "calories": "59",
-      "protein": "1.3",
-      "fat": "0.7",
-      "sugar": "11.9"
+      "protein": "1",
+      "fat": "1",
+      "sugar": "12"
     },
     {
       "name": "Brzoskwinie, konserwa, odsączone",
       "calories": "82",
-      "protein": "0.5",
-      "fat": "0.1",
-      "sugar": "19.8"
+      "protein": "1",
+      "fat": "0",
+      "sugar": "20"
     },
     {
       "name": "Budyń czekoladowy",
       "calories": "95",
-      "protein": "2.8",
-      "fat": "2.1",
-      "sugar": "16.2"
+      "protein": "3",
+      "fat": "2",
+      "sugar": "16"
     },
     {
       "name": "Budyń waniliowy",
       "calories": "91",
-      "protein": "2.5",
+      "protein": "3",
       "fat": "2",
-      "sugar": "15.7"
+      "sugar": "16"
     },
     {
       "name": "Bułka grahamka",
       "calories": "198",
-      "protein": "6.5",
-      "fat": "1.3",
+      "protein": "7",
+      "fat": "1",
       "sugar": "40"
     },
     {
       "name": "Bułka kajzerka",
       "calories": "226",
-      "protein": "5.8",
-      "fat": "2.6",
-      "sugar": "44.8"
+      "protein": "6",
+      "fat": "3",
+      "sugar": "45"
     },
     {
       "name": "Bułka maślana",
       "calories": "212",
-      "protein": "5.9",
-      "fat": "4.5",
+      "protein": "6",
+      "fat": "5",
       "sugar": "47"
     },
     {
       "name": "Bułka tarta",
       "calories": "363",
-      "protein": "10.4",
-      "fat": "2.1",
-      "sugar": "75.6"
+      "protein": "10",
+      "fat": "2",
+      "sugar": "76"
     },
     {
       "name": "Bułka wrocławska",
       "calories": "226",
-      "protein": "5.8",
-      "fat": "2.6",
-      "sugar": "44.8"
+      "protein": "6",
+      "fat": "3",
+      "sugar": "45"
     },
     {
       "name": "Bułka zwykła",
       "calories": "217",
-      "protein": "5.8",
-      "fat": "1.1",
-      "sugar": "45.9"
+      "protein": "6",
+      "fat": "1",
+      "sugar": "46"
     },
     {
       "name": "Buraki",
       "calories": "46",
-      "protein": "1.8",
-      "fat": "0.1",
-      "sugar": "9.8"
+      "protein": "2",
+      "fat": "0",
+      "sugar": "10"
     },
     {
       "name": "Cappuccino śmietankowe, proszek",
       "calories": "385",
-      "protein": "5.3",
-      "fat": "9.9",
-      "sugar": "68.7"
+      "protein": "5",
+      "fat": "10",
+      "sugar": "69"
     },
     {
       "name": "Cebula",
       "calories": "37",
-      "protein": "1.4",
-      "fat": "0.4",
-      "sugar": "6.9"
+      "protein": "1",
+      "fat": "0",
+      "sugar": "7"
     },
     {
       "name": "Cielęcina, łopatka",
       "calories": "105",
-      "protein": "19.9",
-      "fat": "2.8",
+      "protein": "20",
+      "fat": "2",
       "sugar": "0"
     },
     {
