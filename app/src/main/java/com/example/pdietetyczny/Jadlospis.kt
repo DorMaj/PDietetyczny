@@ -31,6 +31,8 @@ class Jadlospis : AppCompatActivity() {
     // Waga użytkownika
     private var userWeight: Float = 70f // Domyślna waga
 
+    private lateinit var mealAdapter: MealAdapter
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityJadlospis2Binding.inflate(layoutInflater)
@@ -79,6 +81,14 @@ class Jadlospis : AppCompatActivity() {
 
         // Obsługa wagi użytkownika
         setupWeightInput()
+
+        // Inicjalizacja RecyclerView
+        mealAdapter = MealAdapter(breakfastItems)
+        binding.mealRecyclerView.layoutManager = LinearLayoutManager(this)
+        binding.mealRecyclerView.adapter = mealAdapter
+
+        // Dodanie nagłówka listy
+        binding.mealListTitle.text = "Lista dodanych rzeczy:"
     }
 
     private fun setupWeightInput() {
@@ -100,10 +110,17 @@ class Jadlospis : AppCompatActivity() {
         val dailyCarbs = userWeight * 4f
         val dailyFat = userWeight * 1f
 
+        // Zaktualizowanie maksymalnych wartości ProgressBarów
         binding.proteinProgress.max = dailyProtein.toInt()
         binding.carbsProgress.max = dailyCarbs.toInt()
         binding.fatProgress.max = dailyFat.toInt()
         binding.kalorieProgress.max = dailyCalories.toInt()
+
+        // Zaktualizowanie tekstu informującego o nowych wartościach
+        binding.proteinLabel.text = "Białka: 0 / ${dailyProtein.toInt()} g"
+        binding.carbsLabel.text = "Węglowodany: 0 / ${dailyCarbs.toInt()} g"
+        binding.fatLabel.text = "Tłuszcze: 0 / ${dailyFat.toInt()} g"
+        binding.kalorieLabel.text = "Kalorie: 0 / ${dailyCalories.toInt()} kcal"
 
         Toast.makeText(this, "Zaktualizowano makro dla ${userWeight} kg!", Toast.LENGTH_SHORT).show()
     }
@@ -127,21 +144,23 @@ class Jadlospis : AppCompatActivity() {
         }
     }
 
-    private fun addMealToCategory(category: MutableList<FoodItem>, item: FoodItem) {
-        category.add(item)
-        updateProgressBars()
-    }
-
     private fun updateProgressBars() {
         val totalProtein = calculateTotal { it.protein }
         val totalCarbs = calculateTotal { it.sugar }
         val totalFat = calculateTotal { it.fat }
         val totalCalories = calculateTotal { it.calories }
 
+        // Ustawienie progres barów
         binding.proteinProgress.progress = totalProtein.toInt()
         binding.carbsProgress.progress = totalCarbs.toInt()
         binding.fatProgress.progress = totalFat.toInt()
         binding.kalorieProgress.progress = totalCalories.toInt()
+
+        // Zaktualizowanie etykiet z makro wartościami
+        binding.proteinLabel.text = "Białka: ${totalProtein.toInt()} / ${binding.proteinProgress.max} g"
+        binding.carbsLabel.text = "Węglowodany: ${totalCarbs.toInt()} / ${binding.carbsProgress.max} g"
+        binding.fatLabel.text = "Tłuszcze: ${totalFat.toInt()} / ${binding.fatProgress.max} g"
+        binding.kalorieLabel.text = "Kalorie: ${totalCalories.toInt()} / ${binding.kalorieProgress.max} kcal"
     }
 
     private fun calculateTotal(selector: (FoodItem) -> Float): Float {
@@ -241,5 +260,10 @@ class Jadlospis : AppCompatActivity() {
 
     override fun onBackPressed() {
         super.onBackPressed()
+    }
+    private fun addMealToCategory(category: MutableList<FoodItem>, item: FoodItem) {
+        category.add(item)
+        updateProgressBars()
+        mealAdapter.notifyDataSetChanged()
     }
 }

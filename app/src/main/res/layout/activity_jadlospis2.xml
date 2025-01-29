@@ -95,11 +95,13 @@
 
         <!-- Trzy ProgressBary -->
         <TextView
+            android:id="@+id/proteinLabel"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Białka"
+            android:text="Białka: 0 / 0 g"
             android:textColor="@android:color/white"
             android:textSize="18sp" />
+
         <ProgressBar
             android:id="@+id/protein_progress"
             style="?android:attr/progressBarStyleHorizontal"
@@ -112,9 +114,10 @@
 
         <!-- Węglowodany -->
         <TextView
+            android:id="@+id/carbsLabel"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Węglowodany"
+            android:text="Węglowodany: 0 / 0 g"
             android:textColor="@android:color/white"
             android:textSize="18sp" />
         <ProgressBar
@@ -129,9 +132,10 @@
 
         <!-- Tłuszcze -->
         <TextView
+            android:id="@+id/fatLabel"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Tłuszcze"
+            android:text="Tłuszcze: 0 / 0 g"
             android:textColor="@android:color/white"
             android:textSize="18sp" />
         <ProgressBar
@@ -145,9 +149,10 @@
 
         <!-- Kalorie -->
         <TextView
+            android:id="@+id/kalorieLabel"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Kalorie"
+            android:text="Kalorie: 0 / 0 kcal"
             android:textColor="@android:color/white"
             android:textSize="18sp" />
         <ProgressBar
@@ -158,6 +163,17 @@
             android:max="100"
             android:progress="0"
             android:progressDrawable="@drawable/progress_bar" />
+
+        <TextView
+            android:id="@+id/mealListTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lista dodanych rzeczy:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"/>
 
         <!-- RecyclerView i SearchView do wyboru posiłków -->
         <androidx.appcompat.widget.SearchView
@@ -174,6 +190,12 @@
             android:layout_marginTop="16dp"
             android:visibility="gone" />
         <!-- Bottom Navigation -->
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/mealRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"/>
     </LinearLayout>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
