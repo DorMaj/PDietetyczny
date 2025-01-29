@@ -24,6 +24,24 @@
             android:layout_gravity="left"
             android:textColor="@android:color/white"
             android:textSize="32sp" />
+        <EditText
+            android:id="@+id/weight_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Podaj swoją wagę (kg)"
+            android:inputType="numberDecimal"
+            android:background="@android:color/white"
+            android:textColor="@android:color/black"
+            android:padding="10dp"
+            android:layout_marginBottom="8dp"/>
+
+        <Button
+            android:id="@+id/set_weight_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ustaw wagę"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp"/>
 
         <!-- Śniadanie -->
         <LinearLayout
@@ -36,105 +54,15 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/niadanie"
+                android:text="@string/posi_ek"
                 android:textColor="@android:color/white" />
 
             <Button
-                android:id="@+id/add_sniadanie_button"
+                android:id="@+id/add_posilek_button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/dodaj"
                 android:textColor="@android:color/white" />
-        </LinearLayout>
-
-        <!-- Drugie śniadanie -->
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_marginBottom="8dp">
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="@string/drugie_niadanie"
-                android:textColor="@android:color/white" />
-
-            <Button
-                android:id="@+id/add_drugie_sniadanie_button"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/dodaj"
-                android:textColor="@android:color/white" />
-        </LinearLayout>
-
-        <!-- Obiad -->
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_marginBottom="8dp">
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="@string/obiad"
-                android:textColor="@android:color/white" />
-
-            <Button
-                android:id="@+id/add_obiad_button"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/dodaj"
-                android:textColor="@android:color/white" />
-        </LinearLayout>
-
-        <!-- Deser -->
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_marginBottom="8dp">
-
-            <TextView
-                android:id="@+id/deserText"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="@string/deser"
-                android:textColor="@android:color/white" />
-
-            <Button
-                android:id="@+id/add_deser_button"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/dodaj"
-                android:textColor="@android:color/white" />
-        </LinearLayout>
-
-        <!-- Kolacja -->
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_marginBottom="8dp">
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="@string/kolacja"
-                android:textColor="@android:color/white" />
-
-            <Button
-                android:id="@+id/add_kolacja_button"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/dodaj"
-                android:textColor="@android:color/white"
-                android:layout_marginBottom="8dp"/>
         </LinearLayout>
 
         <!-- Sekcja wody -->
