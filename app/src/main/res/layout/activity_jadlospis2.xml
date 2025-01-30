@@ -8,6 +8,12 @@
     android:layout_height="match_parent"
     tools:context=".Jadlospis"
     android:background="#46865B">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:fillViewport="true"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/bottomNavigationView">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -165,16 +171,31 @@
             android:progress="0"
             android:progressDrawable="@drawable/progress_bar" />
 
-        <TextView
-            android:id="@+id/mealListTitle"
-            android:layout_width="wrap_content"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Lista dodanych rzeczy:"
-            android:textSize="18sp"
-            android:textStyle="bold"
-            android:textColor="@android:color/white"
-            android:layout_marginTop="16dp"
-            android:layout_marginBottom="8dp"/>
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/mealListTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lista dodanych rzeczy:"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="8dp"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/mealRecyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:nestedScrollingEnabled="false"
+                android:padding="8dp"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
+        </LinearLayout>
 
         <!-- RecyclerView i SearchView do wyboru posiłków -->
         <androidx.appcompat.widget.SearchView
@@ -190,14 +211,10 @@
             android:layout_height="0dp"
             android:layout_marginTop="16dp"
             android:visibility="gone" />
-        <!-- Bottom Navigation -->
 
-        <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/mealRecyclerView"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:padding="8dp"/>
+        <!-- Bottom Navigation -->
     </LinearLayout>
+    </ScrollView>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottomNavigationView"
