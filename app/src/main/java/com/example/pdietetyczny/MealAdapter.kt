@@ -7,8 +7,17 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.pdietetyczny.models.FoodItem
 
-class MealAdapter(private val mealList: List<FoodItem>) :
+class MealAdapter(private var mealList: MutableList<FoodItem>) :
     RecyclerView.Adapter<MealAdapter.MealViewHolder>() {
+
+    // Zmieniamy mealList na MutableList, aby można było ją modyfikować
+
+    // Dodajemy metodę do aktualizacji danych w adapterze
+    fun updateData(newMealList: List<FoodItem>) {
+        mealList.clear()           // Usuwamy poprzednie dane
+        mealList.addAll(newMealList)  // Dodajemy nowe dane
+        notifyDataSetChanged()     // Powiadamiamy adapter, że dane się zmieniły
+    }
 
     class MealViewHolder(view: View) : RecyclerView.ViewHolder(view) {
         val mealName: TextView = view.findViewById(R.id.mealName)

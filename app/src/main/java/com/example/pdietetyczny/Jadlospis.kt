@@ -1,8 +1,7 @@
 package com.example.pdietetyczny
 
 import android.os.Bundle
-import android.widget.ArrayAdapter
-import android.widget.Toast
+import android.widget.*
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -11,8 +10,7 @@ import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
 import com.example.pdietetyczny.databinding.ActivityJadlospis2Binding
 import android.content.Intent
-
-import android.widget.*
+import android.content.SharedPreferences
 
 class Jadlospis : AppCompatActivity() {
 
@@ -33,10 +31,18 @@ class Jadlospis : AppCompatActivity() {
 
     private lateinit var mealAdapter: MealAdapter
 
+    private lateinit var sharedPreferences: SharedPreferences
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityJadlospis2Binding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        // Ustawienie SharedPreferences
+        sharedPreferences = getSharedPreferences("USER_DATA", MODE_PRIVATE)
+
+        // Załaduj dane z SharedPreferences
+        loadUserData()
 
         // Obsługa dolnego menu
         binding.bottomNavigationView.selectedItemId = R.id.jadlospis2
@@ -48,18 +54,21 @@ class Jadlospis : AppCompatActivity() {
                     finish()
                     true
                 }
+
                 R.id.opcje -> {
                     startActivity(Intent(this, Opcje::class.java))
                     overridePendingTransition(0, 0)
                     finish()
                     true
                 }
+
                 R.id.bmi -> {
                     startActivity(Intent(this, Bmi::class.java))
                     overridePendingTransition(0, 0)
                     finish()
                     true
                 }
+
                 else -> false
             }
         }
@@ -100,7 +109,28 @@ class Jadlospis : AppCompatActivity() {
             } else {
                 userWeight = enteredWeight
                 updateMacrosBasedOnWeight()
+                saveUserData()
             }
+        }
+    }
+
+    private fun saveUserData() {
+        val editor = sharedPreferences.edit()
+        editor.putFloat("userWeight", userWeight)
+        editor.putInt("waterIntake", waterIntake)
+        editor.putString("breakfastItems", Gson().toJson(breakfastItems))
+        editor.apply()
+    }
+
+    private fun loadUserData() {
+        userWeight = sharedPreferences.getFloat("userWeight", 70f)
+        waterIntake = sharedPreferences.getInt("waterIntake", 0)
+        val breakfastItemsJson = sharedPreferences.getString("breakfastItems", "[]")
+        if (breakfastItemsJson != null) {
+            val gson = Gson()
+            val type = object : TypeToken<List<FoodItem>>() {}.type
+            breakfastItems.clear()
+            breakfastItems.addAll(gson.fromJson(breakfastItemsJson, type))
         }
     }
 
@@ -122,8 +152,44 @@ class Jadlospis : AppCompatActivity() {
         binding.fatLabel.text = "Tłuszcze: 0 / ${dailyFat.toInt()} g"
         binding.kalorieLabel.text = "Kalorie: 0 / ${dailyCalories.toInt()} kcal"
 
-        Toast.makeText(this, "Zaktualizowano makro dla ${userWeight} kg!", Toast.LENGTH_SHORT).show()
+        // Aktualizacja makroskładników dla dodanych posiłków
+        breakfastItems.forEach { meal ->
+            val scaleFactor =
+                meal.calories / 100f // Przykład dla kalorii, przeliczyć na podstawie wagi
+            meal.calories = meal.calories * scaleFactor // Przypisanie do var
+            meal.protein = meal.protein * scaleFactor   // Przypisanie do var
+            meal.sugar = meal.sugar * scaleFactor       // Przypisanie do var
+            meal.fat = meal.fat * scaleFactor           // Przypisanie do var
+        }
+
+        updateProgressBars() // Zaktualizuj progresy po zmianie wagi
+        Toast.makeText(this, "Zaktualizowano makro dla ${userWeight} kg!", Toast.LENGTH_SHORT)
+            .show()
     }
+
+
+    private fun updateProgressBar() {
+        val totalProtein = calculateTotal { it.protein }
+        val totalCarbs = calculateTotal { it.sugar }
+        val totalFat = calculateTotal { it.fat }
+        val totalCalories = calculateTotal { it.calories }
+
+        // Ustawienie progres barów
+        binding.proteinProgress.progress = totalProtein.toInt()
+        binding.carbsProgress.progress = totalCarbs.toInt()
+        binding.fatProgress.progress = totalFat.toInt()
+        binding.kalorieProgress.progress = totalCalories.toInt()
+
+        // Zaktualizowanie etykiet z makro wartościami
+        binding.proteinLabel.text =
+            "Białka: ${totalProtein.toInt()} / ${binding.proteinProgress.max} g"
+        binding.carbsLabel.text =
+            "Węglowodany: ${totalCarbs.toInt()} / ${binding.carbsProgress.max} g"
+        binding.fatLabel.text = "Tłuszcze: ${totalFat.toInt()} / ${binding.fatProgress.max} g"
+        binding.kalorieLabel.text =
+            "Kalorie: ${totalCalories.toInt()} / ${binding.kalorieProgress.max} kcal"
+    }
+
 
     private fun setupMealButtons() {
         binding.addPosilekButton.setOnClickListener {
@@ -142,6 +208,31 @@ class Jadlospis : AppCompatActivity() {
                 Toast.makeText(this, "Maksymalna ilość wody to 2000 ml!", Toast.LENGTH_SHORT).show()
             }
         }
+
+        binding.resetButton.setOnClickListener {
+            resetData()
+        }
+    }
+
+    private fun resetData() {
+        // Resetowanie wprowadzonych danych
+        breakfastItems.clear()  // Usunięcie wszystkich posiłków z listy
+        mealAdapter.notifyDataSetChanged()  // Powiadomienie adaptera o zmianach
+
+        // Resetowanie wartości progress barów
+        waterIntake = 0
+        updateProgressBars()
+        updateWaterProgressBar()
+
+        // Resetowanie wagi użytkownika
+        userWeight = 70f
+        binding.weightInput.setText(userWeight.toString())
+
+        // Resetowanie makroskładników
+        binding.proteinLabel.text = "Białka: 0 / ${binding.proteinProgress.max} g"
+        binding.carbsLabel.text = "Węglowodany: 0 / ${binding.carbsProgress.max} g"
+        binding.fatLabel.text = "Tłuszcze: 0 / ${binding.fatProgress.max} g"
+        binding.kalorieLabel.text = "Kalorie: 0 / ${binding.kalorieProgress.max} kcal"
     }
 
     private fun updateProgressBars() {
@@ -157,10 +248,13 @@ class Jadlospis : AppCompatActivity() {
         binding.kalorieProgress.progress = totalCalories.toInt()
 
         // Zaktualizowanie etykiet z makro wartościami
-        binding.proteinLabel.text = "Białka: ${totalProtein.toInt()} / ${binding.proteinProgress.max} g"
-        binding.carbsLabel.text = "Węglowodany: ${totalCarbs.toInt()} / ${binding.carbsProgress.max} g"
+        binding.proteinLabel.text =
+            "Białka: ${totalProtein.toInt()} / ${binding.proteinProgress.max} g"
+        binding.carbsLabel.text =
+            "Węglowodany: ${totalCarbs.toInt()} / ${binding.carbsProgress.max} g"
         binding.fatLabel.text = "Tłuszcze: ${totalFat.toInt()} / ${binding.fatProgress.max} g"
-        binding.kalorieLabel.text = "Kalorie: ${totalCalories.toInt()} / ${binding.kalorieProgress.max} kcal"
+        binding.kalorieLabel.text =
+            "Kalorie: ${totalCalories.toInt()} / ${binding.kalorieProgress.max} kcal"
     }
 
     private fun calculateTotal(selector: (FoodItem) -> Float): Float {
@@ -173,7 +267,11 @@ class Jadlospis : AppCompatActivity() {
         binding.waterProgress.progress = progress.toInt()
         binding.waterStatus.text = "$waterIntake / $maxWaterIntake ml"
     }
-    private fun openWeightInputDialog(selectedProduct: FoodItem, onProductSelected: (FoodItem) -> Unit) {
+
+    private fun openWeightInputDialog(
+        selectedProduct: FoodItem,
+        onProductSelected: (FoodItem) -> Unit
+    ) {
         val builder = AlertDialog.Builder(this)
         builder.setTitle("Podaj gramaturę dla: ${selectedProduct.name}")
 
@@ -260,10 +358,15 @@ class Jadlospis : AppCompatActivity() {
 
     override fun onBackPressed() {
         super.onBackPressed()
+        saveUserData()  //
     }
+
     private fun addMealToCategory(category: MutableList<FoodItem>, item: FoodItem) {
         category.add(item)
         updateProgressBars()
         mealAdapter.notifyDataSetChanged()
     }
 }
+
+
+

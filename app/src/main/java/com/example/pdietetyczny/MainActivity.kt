@@ -2,31 +2,42 @@ package com.example.pdietetyczny
 
 import android.annotation.SuppressLint
 import android.content.Intent
+import android.content.SharedPreferences
 import android.os.Bundle
 import android.widget.ArrayAdapter
-import android.widget.AutoCompleteTextView
-import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import com.example.pdietetyczny.databinding.ActivityMainBinding
 import com.example.pdietetyczny.models.FoodItem
 import com.google.gson.Gson
+import com.google.gson.reflect.TypeToken
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
+    private lateinit var sharedPreferences: SharedPreferences
 
-    // Lista produktów, która będzie dostępna globalnie w aplikacji
     companion object {
-        lateinit var foodList: List<FoodItem>
+        var foodList: List<FoodItem> = emptyList()
     }
 
     @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
-        setContentView(binding.root)  // Używamy binding.root
+        setContentView(binding.root)
 
-        val bottomNavigationView: BottomNavigationView = binding.bottomNavigationView  // Odwołanie do bindingu
+        // Inicjalizacja SharedPreferences
+        sharedPreferences = getSharedPreferences("AppPrefs", MODE_PRIVATE)
+
+        // Wczytaj listę produktów
+        foodList = loadFoodListFromPreferences()
+
+        if (foodList.isEmpty()) {
+            foodList = loadJsonFromAssets()
+            saveFoodListToPreferences()
+        }
+
+        val bottomNavigationView: BottomNavigationView = binding.bottomNavigationView
         bottomNavigationView.setOnItemSelectedListener { item ->
             if (item.itemId == bottomNavigationView.selectedItemId) {
                 return@setOnItemSelectedListener false
@@ -46,16 +57,10 @@ class MainActivity : AppCompatActivity() {
                     true
                 }
                 R.id.jadlospis2 -> {
-                    // Przekazanie foodList do JadlospisNew za pomocą Intent
                     val intent = Intent(this, Jadlospis::class.java)
-
-                    // Konwersja foodList na JSON
                     val gson = Gson()
                     val json = gson.toJson(foodList)
-
-                    // Dodanie JSON do Intentu
                     intent.putExtra("FOOD_LIST", json)
-
                     startActivity(intent)
                     overridePendingTransition(0, 0)
                     finish()
@@ -65,12 +70,9 @@ class MainActivity : AppCompatActivity() {
             }
         }
 
-        // Ładowanie listy produktów z pliku JSON
-        foodList = loadJsonFromAssets()
-
-        // Zainicjalizowanie AutoCompleteTextView z listą produktów
+        // Inicjalizacja AutoCompleteTextView z listą produktów
         val productNames = foodList.map { it.name }
-        val searchProduct = binding.searchProduct  // Z bindingu
+        val searchProduct = binding.searchProduct
 
         val adapter = ArrayAdapter(
             this,
@@ -100,5 +102,25 @@ class MainActivity : AppCompatActivity() {
         val jsonString = assets.open("Food_database.json").bufferedReader().use { it.readText() }
         val gson = Gson()
         return gson.fromJson(jsonString, Array<FoodItem>::class.java).toList()
+    }
+
+    // Funkcja do zapisu listy do SharedPreferences
+    private fun saveFoodListToPreferences() {
+        val editor = sharedPreferences.edit()
+        val gson = Gson()
+        val json = gson.toJson(foodList)
+        editor.putString("FOOD_LIST", json)
+        editor.apply()
+    }
+
+    // Funkcja do wczytywania listy z SharedPreferences
+    private fun loadFoodListFromPreferences(): List<FoodItem> {
+        val json = sharedPreferences.getString("FOOD_LIST", null)
+        return if (json != null) {
+            val type = object : TypeToken<List<FoodItem>>() {}.type
+            Gson().fromJson(json, type)
+        } else {
+            emptyList()
+        }
     }
 }
