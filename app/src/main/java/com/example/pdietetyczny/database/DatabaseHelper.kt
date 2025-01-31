@@ -58,10 +58,10 @@ class DatabaseHelper(context: Context) : SQLiteOpenHelper(context, DATABASE_NAME
         return if (cursor.moveToFirst()) {
             val id = cursor.getInt(cursor.getColumnIndex(COLUMN_ID))
             val name = cursor.getString(cursor.getColumnIndex(COLUMN_NAME))
-            val calories = cursor.getDouble(cursor.getColumnIndex(COLUMN_CALORIES))
-            val protein = cursor.getDouble(cursor.getColumnIndex(COLUMN_PROTEIN))
-            val sugar = cursor.getDouble(cursor.getColumnIndex(COLUMN_SUGAR))
-            val fat = cursor.getDouble(cursor.getColumnIndex(COLUMN_FAT))
+            val calories = cursor.getFloat(cursor.getColumnIndex(COLUMN_CALORIES))
+            val protein = cursor.getFloat(cursor.getColumnIndex(COLUMN_PROTEIN))
+            val sugar = cursor.getFloat(cursor.getColumnIndex(COLUMN_SUGAR))
+            val fat = cursor.getFloat(cursor.getColumnIndex(COLUMN_FAT))
             cursor.close()
             FoodItem(id, name, calories, protein, sugar, fat)
         } else {

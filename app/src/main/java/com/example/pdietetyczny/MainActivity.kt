@@ -2,46 +2,43 @@ package com.example.pdietetyczny
 
 import android.annotation.SuppressLint
 import android.content.Intent
-import androidx.activity.viewModels
-import androidx.appcompat.app.AppCompatActivity
-import com.example.pdietetyczny.R.layout.activity_main
-import com.example.pdietetyczny.database.DatabaseHelper
-import com.example.pdietetyczny.databinding.ActivityMainBinding
-import com.google.android.material.bottomnavigation.BottomNavigationView
 import android.os.Bundle
 import android.widget.ArrayAdapter
 import android.widget.AutoCompleteTextView
-import android.widget.Button
 import android.widget.TextView
+import androidx.appcompat.app.AppCompatActivity
+import com.example.pdietetyczny.databinding.ActivityMainBinding
 import com.example.pdietetyczny.models.FoodItem
 import com.google.gson.Gson
-import com.google.gson.reflect.TypeToken
-
+import com.google.android.material.bottomnavigation.BottomNavigationView
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
-    private lateinit var foodList: List<FoodItem> // Lista produktów
+
+    // Lista produktów, która będzie dostępna globalnie w aplikacji
+    companion object {
+        lateinit var foodList: List<FoodItem>
+    }
 
     @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
-        setContentView(activity_main)
-        val bottomNavigationView: BottomNavigationView = findViewById(R.id.bottomNavigationView)
+        setContentView(binding.root)  // Używamy binding.root
+
+        val bottomNavigationView: BottomNavigationView = binding.bottomNavigationView  // Odwołanie do bindingu
         bottomNavigationView.setOnItemSelectedListener { item ->
             if (item.itemId == bottomNavigationView.selectedItemId) {
                 return@setOnItemSelectedListener false
             }
 
             when (item.itemId) {
-
                 R.id.bmi -> {
                     startActivity(Intent(this, Bmi::class.java))
                     overridePendingTransition(0, 0)
                     finish()
                     true
                 }
-
                 R.id.opcje -> {
                     startActivity(Intent(this, Opcje::class.java))
                     overridePendingTransition(0, 0)
@@ -49,22 +46,31 @@ class MainActivity : AppCompatActivity() {
                     true
                 }
                 R.id.jadlospis2 -> {
-                    startActivity(Intent(this, Jadlospis::class.java))
+                    // Przekazanie foodList do JadlospisNew za pomocą Intent
+                    val intent = Intent(this, Jadlospis::class.java)
+
+                    // Konwersja foodList na JSON
+                    val gson = Gson()
+                    val json = gson.toJson(foodList)
+
+                    // Dodanie JSON do Intentu
+                    intent.putExtra("FOOD_LIST", json)
+
+                    startActivity(intent)
                     overridePendingTransition(0, 0)
                     finish()
                     true
                 }
-
                 else -> false
             }
-
         }
 
+        // Ładowanie listy produktów z pliku JSON
         foodList = loadJsonFromAssets()
 
-        // Zainicjalizowanie AutoCompleteTextView
+        // Zainicjalizowanie AutoCompleteTextView z listą produktów
         val productNames = foodList.map { it.name }
-        val searchProduct = findViewById<AutoCompleteTextView>(R.id.searchProduct)
+        val searchProduct = binding.searchProduct  // Z bindingu
 
         val adapter = ArrayAdapter(
             this,
@@ -74,20 +80,21 @@ class MainActivity : AppCompatActivity() {
         searchProduct.setAdapter(adapter)
 
         // Obsługa kliknięcia na proponowaną nazwę produktu
-        searchProduct.setOnItemClickListener { parent, view, position, id ->
+        searchProduct.setOnItemClickListener { parent, _, position, _ ->
             val selectedName = parent.getItemAtPosition(position).toString()
             val selectedProduct = foodList.find { it.name == selectedName }
             selectedProduct?.let {
-                findViewById<TextView>(R.id.resultTextView).text = """
+                binding.resultTextView.text = """
                     ${it.name}
-                    Kalorie: ${it.calories}
+                    Kcal: ${it.calories}
                     Białko: ${it.protein}
-                    Cukier: ${it.sugar}
+                    Węglowodany: ${it.sugar}
                     Tłuszcz: ${it.fat}
                 """.trimIndent()
             }
         }
     }
+
     // Funkcja do ładowania danych z pliku JSON
     private fun loadJsonFromAssets(): List<FoodItem> {
         val jsonString = assets.open("Food_database.json").bufferedReader().use { it.readText() }
@@ -95,8 +102,3 @@ class MainActivity : AppCompatActivity() {
         return gson.fromJson(jsonString, Array<FoodItem>::class.java).toList()
     }
 }
-
-
-
-
-

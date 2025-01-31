@@ -56,4 +56,17 @@
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+    <string name="deser">Deser</string>
+    <string name="dodaj">Dodaj</string>
+    <string name="drugie_niadanie">Drugie śniadanie</string>
+    <string name="niadanie">Śniadanie</string>
+    <string name="posi_ki">Posiłki</string>
+    <string name="obiad">Obiad</string>
+    <string name="kolacja">Kolacja</string>
+    <string name="wypi_e_0_1000_ml">Wypiłeś 0 / 1000 ml</string>
+    <string name="dodaj_200_ml">Dodaj 200 ml</string>
+    <string name="bia_ka">Białka</string>
+    <string name="w_glowodany">Węglowodany</string>
+    <string name="t_uszcze">Tłuszcze</string>
+    <string name="posi_ek">Posiłek</string>
 </resources>
